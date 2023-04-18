@@ -1,0 +1,76 @@
+INSERT INTO template_backend_new.tbs_messages (id,code,"name","method","path",is_query,is_file_log,is_db_log,is_public,time_out,created_at) VALUES
+	 (9,1001,'user check phone or email','GET','/auth/identify',1,0,0,0,10,'2022-11-08 12:31:11.255575+08'),
+	 (10,1002,'user register','POST','/auth/register',0,0,0,0,10,'2022-11-08 12:31:11.260445+08'),
+	 (11,1003,'user change org','PUT','/auth/org',1,0,0,0,10,'2022-11-08 12:31:11.26463+08'),
+	 (12,1004,'user password reset otp','GET','/auth/password',0,0,0,0,10,'2022-11-08 12:31:11.26838+08'),
+	 (13,1005,'user password reset','PUT','/auth/password',1,0,0,0,10,'2022-11-08 12:31:11.272014+08'),
+	 (14,1006,'user find','GET','/user/find',1,0,0,0,10,'2022-11-08 12:31:11.275924+08'),
+	 (15,1007,'user list','GET','/user',1,0,0,0,10,'2022-11-08 12:31:11.280027+08'),
+	 (16,1008,'user update','PUT','/user',0,0,0,0,10,'2022-11-08 12:37:16.134254+08'),
+	 (8,1000,'user login','POST','/auth/login',0,0,0,0,10,'2022-11-08 12:31:11.250645+08'),
+	 (17,1009,'user delete','DELETE','/user',0,0,0,0,10,'2022-11-08 12:37:16.139382+08');
+INSERT INTO template_backend_new.tbs_messages (id,code,"name","method","path",is_query,is_file_log,is_db_log,is_public,time_out,created_at) VALUES
+	 (18,1010,'user change password','PUT','/user/password',1,0,0,0,10,'2022-11-08 12:37:16.143718+08'),
+	 (19,1011,'user change username','PUT','/user/username',1,0,0,0,10,'2022-11-08 12:37:16.148194+08'),
+	 (20,1012,'user org list','GET','/user/org',1,0,0,0,10,'2022-11-08 12:37:16.152187+08'),
+	 (21,1013,'role list','GET','/role',1,0,0,0,10,'2022-11-08 12:37:16.155845+08'),
+	 (22,1014,'role create','POST','/role',0,0,0,0,10,'2022-11-08 12:37:16.159715+08'),
+	 (23,1015,'role update','PUT','/role',0,0,0,0,10,'2022-11-08 12:37:16.163424+08'),
+	 (24,1016,'role delete','DELETE','/role',0,0,0,0,10,'2022-11-08 12:37:16.167611+08'),
+	 (25,1017,'org find','GET','/organization/find',0,0,0,0,10,'2022-11-08 12:38:22.69865+08'),
+	 (26,1018,'org list','GET','/organization',0,0,0,0,10,'2022-11-08 12:38:22.704632+08'),
+	 (27,1019,'org create','POST','/organization',0,0,0,0,10,'2022-11-08 12:38:22.708958+08');
+INSERT INTO template_backend_new.tbs_messages (id,code,"name","method","path",is_query,is_file_log,is_db_log,is_public,time_out,created_at) VALUES
+	 (28,1020,'org update','PUT','/organization',0,0,0,0,10,'2022-11-08 12:38:22.713024+08'),
+	 (29,1021,'org delete','DELETE','/organization',0,0,0,0,10,'2022-11-08 12:38:22.717194+08'),
+	 (30,1022,'org user list','GET','/organization/user',1,0,0,0,10,'2022-11-08 12:39:12.544684+08'),
+	 (31,1023,'org user add','POST','/organization/user',0,0,0,0,10,'2022-11-08 12:39:12.549857+08'),
+	 (32,1024,'org user delete','DELETE','/organization/user',0,0,0,0,10,'2022-11-08 12:39:12.555253+08'),
+	 (33,1025,'org terminal list','GET','/organization/terminal',1,0,0,0,10,'2022-11-08 12:39:45.570417+08'),
+	 (34,1026,'org terminal add','POST','/organization/terminal',0,0,0,0,10,'2022-11-08 12:39:45.575238+08'),
+	 (35,1027,'org terminal delete','DELETE','/organization/terminal',0,0,0,0,10,'2022-11-08 12:39:45.579241+08'),
+	 (36,1028,'org vehicle list','GET','/organization/vehicle',1,0,0,0,10,'2022-11-08 12:40:19.685732+08'),
+	 (37,1029,'org vehicle add','POST','/organization/vehicle',0,0,0,0,10,'2022-11-08 12:40:19.696142+08');
+INSERT INTO template_backend_new.tbs_messages (id,code,"name","method","path",is_query,is_file_log,is_db_log,is_public,time_out,created_at) VALUES
+	 (38,1030,'org vehicle delete','DELETE','/organization/vehicle',0,0,0,0,10,'2022-11-08 12:40:19.702767+08'),
+	 (39,1031,'module list','GET','/module',1,0,0,0,10,'2022-11-08 12:41:04.749022+08'),
+	 (40,1032,'module create','POST','/module',0,0,0,0,10,'2022-11-08 12:41:04.75397+08'),
+	 (41,1033,'module update','PUT','/module',0,0,0,0,10,'2022-11-08 12:41:04.759725+08'),
+	 (42,1034,'module delete','DELETE','/module',0,0,0,0,10,'2022-11-08 12:41:04.764707+08'),
+	 (43,1035,'page list','GET','/page',1,0,0,0,10,'2022-11-08 12:42:17.482739+08'),
+	 (44,1036,'page create','POST','/page',0,0,0,0,10,'2022-11-08 12:42:17.489786+08'),
+	 (45,1037,'page update','PUT','/page',0,0,0,0,10,'2022-11-08 12:42:17.497057+08'),
+	 (46,1038,'page delete','DELETE','/page',0,0,0,0,10,'2022-11-08 12:42:17.501365+08'),
+	 (47,1039,'action list','GET','/action',1,0,0,0,10,'2022-11-08 12:42:17.508885+08');
+INSERT INTO template_backend_new.tbs_messages (id,code,"name","method","path",is_query,is_file_log,is_db_log,is_public,time_out,created_at) VALUES
+	 (48,1040,'action create','POST','/action',0,0,0,0,10,'2022-11-08 12:42:17.512828+08'),
+	 (49,1041,'action update','PUT','/action',0,0,0,0,10,'2022-11-08 12:42:17.517231+08'),
+	 (50,1042,'action delete','DELETE','/action',0,0,0,0,10,'2022-11-08 12:42:17.525168+08'),
+	 (51,1043,'language list','GET','/language',1,0,0,0,10,'2022-11-08 12:43:04.790002+08'),
+	 (52,1044,'language create','POST','/language',0,0,0,0,10,'2022-11-08 12:43:04.798909+08'),
+	 (53,1045,'language update','PUT','/language',0,0,0,0,10,'2022-11-08 12:43:04.803201+08'),
+	 (54,1046,'language delete','DELETE','/language',0,0,0,0,10,'2022-11-08 12:43:04.807087+08'),
+	 (55,1047,'key list','GET','/key',1,0,0,0,10,'2022-11-08 12:43:54.376852+08'),
+	 (56,1048,'key create','POST','/key',0,0,0,0,10,'2022-11-08 12:43:54.382157+08'),
+	 (57,1049,'key update','PUT','/key',0,0,0,0,10,'2022-11-08 12:43:54.386756+08');
+INSERT INTO template_backend_new.tbs_messages (id,code,"name","method","path",is_query,is_file_log,is_db_log,is_public,time_out,created_at) VALUES
+	 (58,1050,'key delete','DELETE','/key',0,0,0,0,10,'2022-11-08 12:43:54.390829+08'),
+	 (59,1051,'translation list','GET','/translation',1,0,0,0,10,'2022-11-08 12:44:26.271121+08'),
+	 (60,1052,'translation set','PUT','/translation',0,0,0,0,10,'2022-11-08 12:44:26.276477+08'),
+	 (61,1053,'location list','GET','/location',1,0,0,0,10,'2022-11-08 12:45:16.626515+08'),
+	 (62,1054,'location create','POST','/location',0,0,0,0,10,'2022-11-08 12:45:16.632167+08'),
+	 (63,1055,'location update','PUT','/location',0,0,0,0,10,'2022-11-08 12:45:16.637019+08'),
+	 (64,1056,'location delete','DELETE','/location',0,0,0,0,10,'2022-11-08 12:45:16.641332+08'),
+	 (65,1057,'vehicle find','GET','/vehicle/find',1,0,0,0,10,'2022-11-08 12:45:57.7199+08'),
+	 (66,1058,'vehicle list','GET','/vehicle',1,0,0,0,10,'2022-11-08 12:45:57.725181+08'),
+	 (67,1059,'terminal find','GET','/terminal/find',1,0,0,0,10,'2022-11-08 12:46:44.198391+08');
+INSERT INTO template_backend_new.tbs_messages (id,code,"name","method","path",is_query,is_file_log,is_db_log,is_public,time_out,created_at) VALUES
+	 (68,1060,'terminal list','GET','/terminal',1,0,0,0,10,'2022-11-08 12:46:44.203405+08'),
+	 (69,1061,'terminal create','POST','/terminal',0,0,0,0,10,'2022-11-08 12:46:44.207824+08'),
+	 (70,1062,'terminal update','PUT','/terminal',0,0,0,0,10,'2022-11-08 12:46:44.212452+08'),
+	 (71,1063,'document find','GET','/document/find',1,0,0,0,10,'2022-11-08 12:48:30.902227+08'),
+	 (72,1064,'document list','GET','/document',1,0,0,0,10,'2022-11-08 12:48:30.907541+08'),
+	 (73,1065,'document set user','POST','/document/set_user',0,0,0,0,10,'2022-11-08 12:48:30.911698+08'),
+	 (74,1066,'document category list','GET','/document/category',1,0,0,0,10,'2022-11-08 12:48:30.91613+08'),
+	 (75,1067,'document type list','GET','/document/type',1,0,0,0,10,'2022-11-08 12:48:30.920356+08'),
+	 (76,1068,'country list','GET','/countries',1,0,0,0,10,'2022-11-08 12:48:53.211686+08');

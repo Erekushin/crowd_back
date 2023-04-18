@@ -1,0 +1,197 @@
+# github.com/andybalholm/brotli v1.0.4
+## explicit; go 1.12
+github.com/andybalholm/brotli
+# github.com/go-oauth2/oauth2/v4 v4.5.1
+## explicit; go 1.13
+github.com/go-oauth2/oauth2/v4
+github.com/go-oauth2/oauth2/v4/errors
+github.com/go-oauth2/oauth2/v4/generates
+github.com/go-oauth2/oauth2/v4/manage
+github.com/go-oauth2/oauth2/v4/models
+github.com/go-oauth2/oauth2/v4/server
+github.com/go-oauth2/oauth2/v4/store
+# github.com/go-playground/locales v0.14.0
+## explicit; go 1.13
+github.com/go-playground/locales
+github.com/go-playground/locales/currency
+# github.com/go-playground/universal-translator v0.18.0
+## explicit; go 1.13
+github.com/go-playground/universal-translator
+# github.com/go-playground/validator/v10 v10.11.1
+## explicit; go 1.13
+github.com/go-playground/validator/v10
+# github.com/go-sql-driver/mysql v1.6.0
+## explicit; go 1.10
+github.com/go-sql-driver/mysql
+# github.com/gofiber/fiber/v2 v2.39.0
+## explicit; go 1.19
+github.com/gofiber/fiber/v2
+github.com/gofiber/fiber/v2/internal/bytebufferpool
+github.com/gofiber/fiber/v2/internal/dictpool
+github.com/gofiber/fiber/v2/internal/fasttemplate
+github.com/gofiber/fiber/v2/internal/fwd
+github.com/gofiber/fiber/v2/internal/msgp
+github.com/gofiber/fiber/v2/internal/schema
+github.com/gofiber/fiber/v2/internal/uuid
+github.com/gofiber/fiber/v2/middleware/cors
+github.com/gofiber/fiber/v2/middleware/logger
+github.com/gofiber/fiber/v2/middleware/recover
+github.com/gofiber/fiber/v2/middleware/requestid
+github.com/gofiber/fiber/v2/utils
+# github.com/golang-jwt/jwt v3.2.1+incompatible
+## explicit
+github.com/golang-jwt/jwt
+# github.com/google/uuid v1.1.1
+## explicit
+github.com/google/uuid
+# github.com/jackc/chunkreader/v2 v2.0.1
+## explicit; go 1.12
+github.com/jackc/chunkreader/v2
+# github.com/jackc/pgconn v1.13.0
+## explicit; go 1.12
+github.com/jackc/pgconn
+github.com/jackc/pgconn/internal/ctxwatch
+github.com/jackc/pgconn/stmtcache
+# github.com/jackc/pgio v1.0.0
+## explicit; go 1.12
+github.com/jackc/pgio
+# github.com/jackc/pgpassfile v1.0.0
+## explicit; go 1.12
+github.com/jackc/pgpassfile
+# github.com/jackc/pgproto3/v2 v2.3.1
+## explicit; go 1.12
+github.com/jackc/pgproto3/v2
+# github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b
+## explicit; go 1.14
+github.com/jackc/pgservicefile
+# github.com/jackc/pgtype v1.12.0
+## explicit; go 1.13
+github.com/jackc/pgtype
+# github.com/jackc/pgx/v4 v4.17.2
+## explicit; go 1.13
+github.com/jackc/pgx/v4
+github.com/jackc/pgx/v4/internal/sanitize
+github.com/jackc/pgx/v4/stdlib
+# github.com/jinzhu/inflection v1.0.0
+## explicit
+github.com/jinzhu/inflection
+# github.com/jinzhu/now v1.1.5
+## explicit; go 1.12
+github.com/jinzhu/now
+# github.com/joho/godotenv v1.4.0
+## explicit; go 1.12
+github.com/joho/godotenv
+# github.com/klauspost/compress v1.15.0
+## explicit; go 1.15
+github.com/klauspost/compress/flate
+github.com/klauspost/compress/gzip
+github.com/klauspost/compress/zlib
+# github.com/konsorten/go-windows-terminal-sequences v1.0.2
+## explicit
+github.com/konsorten/go-windows-terminal-sequences
+# github.com/leodido/go-urn v1.2.1
+## explicit; go 1.13
+github.com/leodido/go-urn
+# github.com/mattn/go-colorable v0.1.13
+## explicit; go 1.15
+github.com/mattn/go-colorable
+# github.com/mattn/go-isatty v0.0.16
+## explicit; go 1.15
+github.com/mattn/go-isatty
+# github.com/mattn/go-runewidth v0.0.14
+## explicit; go 1.9
+github.com/mattn/go-runewidth
+# github.com/rivo/uniseg v0.2.0
+## explicit; go 1.12
+github.com/rivo/uniseg
+# github.com/robfig/cron v1.2.0
+## explicit
+github.com/robfig/cron
+# github.com/sirupsen/logrus v1.4.2
+## explicit
+github.com/sirupsen/logrus
+# github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
+## explicit; go 1.13
+github.com/skip2/go-qrcode
+github.com/skip2/go-qrcode/bitset
+github.com/skip2/go-qrcode/reedsolomon
+# github.com/tidwall/btree v0.0.0-20191029221954-400434d76274
+## explicit
+github.com/tidwall/btree
+# github.com/tidwall/buntdb v1.1.2
+## explicit; go 1.13
+github.com/tidwall/buntdb
+# github.com/tidwall/gjson v1.12.1
+## explicit; go 1.12
+github.com/tidwall/gjson
+# github.com/tidwall/grect v0.0.0-20161006141115-ba9a043346eb
+## explicit
+github.com/tidwall/grect
+# github.com/tidwall/match v1.1.1
+## explicit; go 1.15
+github.com/tidwall/match
+# github.com/tidwall/pretty v1.2.0
+## explicit; go 1.16
+github.com/tidwall/pretty
+# github.com/tidwall/rtree v0.0.0-20180113144539-6cd427091e0e
+## explicit
+github.com/tidwall/rtree
+github.com/tidwall/rtree/base
+# github.com/tidwall/tinyqueue v0.0.0-20180302190814-1e39f5511563
+## explicit
+github.com/tidwall/tinyqueue
+# github.com/valyala/bytebufferpool v1.0.0
+## explicit
+github.com/valyala/bytebufferpool
+# github.com/valyala/fasthttp v1.40.0
+## explicit; go 1.15
+github.com/valyala/fasthttp
+github.com/valyala/fasthttp/fasthttputil
+github.com/valyala/fasthttp/reuseport
+github.com/valyala/fasthttp/stackless
+# github.com/valyala/tcplisten v1.0.0
+## explicit; go 1.12
+github.com/valyala/tcplisten
+# golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
+## explicit; go 1.17
+golang.org/x/crypto/pbkdf2
+golang.org/x/crypto/sha3
+# golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab
+## explicit; go 1.17
+golang.org/x/sys/cpu
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/text v0.3.7
+## explicit; go 1.17
+golang.org/x/text/cases
+golang.org/x/text/internal
+golang.org/x/text/internal/language
+golang.org/x/text/internal/language/compact
+golang.org/x/text/internal/tag
+golang.org/x/text/language
+golang.org/x/text/runes
+golang.org/x/text/secure/bidirule
+golang.org/x/text/secure/precis
+golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
+golang.org/x/text/width
+# gorm.io/datatypes v1.0.7
+## explicit; go 1.14
+gorm.io/datatypes
+# gorm.io/driver/mysql v1.3.2
+## explicit; go 1.14
+gorm.io/driver/mysql
+# gorm.io/driver/postgres v1.4.4
+## explicit; go 1.14
+gorm.io/driver/postgres
+# gorm.io/gorm v1.24.0
+## explicit; go 1.16
+gorm.io/gorm
+gorm.io/gorm/callbacks
+gorm.io/gorm/clause
+gorm.io/gorm/logger
+gorm.io/gorm/migrator
+gorm.io/gorm/schema
+gorm.io/gorm/utils

@@ -1,0 +1,2389 @@
+[2022-11-07 19:35:06] 400 -     7ms PUT /auth/org
+[2022-11-07 19:35:42] 400 -     6ms PUT /auth/org
+[2022-11-07 19:36:28] 400 -     8ms PUT /auth/org  {"message":"org_id is required "}
+[2022-11-07 19:37:58] 400 -     7ms PUT /auth/org org_id=  {"message":"org_id is required "}
+[2022-11-07 19:38:08] 200 -    78ms PUT /auth/org org_id=20000002  {"message":"success","result":{"id":"27","name":"Админ","modules":[{"code":"Main system","description":"Үндсэн систем","icon":"HomeIcon","id":"3","name":"Үндсэн систем","pages":[{"id":"10","code":"User","name":"Хэрэглэгч","path":"/organization/user","icon":"UserIcon","sequence":101,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"11","code":"User role","name":"Хэрэглэгчийн эрх","path":"/organization/role","icon":"ShieldCheckIcon","sequence":102,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"20","code":"Vehicle","name":"Тээврийн хэрэгсэл","path":"/organization/vehicle","icon":"TruckIcon","sequence":103,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"21","code":"Terminal","name":"Төхөөрөмж","path":"/organization/terminal","icon":"DeviceTabletIcon","sequence":104,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"8","code":"Translation","name":"Орчуулга","path":"/translation","icon":"LanguageIcon","sequence":111,"group_code":"Setting","group_name":"Тохиргоо"},{"id":"7","code":"Menu","name":"Хуудас","path":"/menu","icon":"Bars4Icon","sequence":112,"group_code":"Setting","group_name":"Тохиргоо"}],"sequence":1},{"code":"Observe system","description":"Хянах систем","icon":"ComputerDesktopIcon","id":"5","name":"Хянах систем","pages":[{"id":"9","code":"User","name":"Хэрэглэгч","path":"/user","icon":"UserIcon","sequence":1,"group_code":"System registration","group_name":"Системийн бүртгэл"},{"id":"6","code":"Organization","name":"Байгууллага","path":"/organization","icon":"BuildingOfficeIcon","sequence":2,"group_code":"System registration","group_name":"Системийн бүртгэл"},{"id":"16","code":"Dashboard","name":"Хянах самбар","path":"/dashboard","icon":"ComputerDesktopIcon","sequence":11,"group_code":"Observe","group_name":"Хянах"}],"sequence":11}],"actions":[{"id":"34","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл харах","description":""},{"id":"35","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж харах","description":""},{"id":"36","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч бүртгэх","description":""},{"id":"37","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч засах","description":""},{"id":"38","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч устгах","description":""},{"id":"39","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага бүртгэх","description":""},{"id":"40","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага засах","description":""},{"id":"41","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага устгах","description":""},{"id":"42","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч бүртгэх","description":""},{"id":"43","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч засах","description":""},{"id":"44","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч устгах","description":""},{"id":"45","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх бүртгэх","description":""},{"id":"46","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх засах","description":""},{"id":"47","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх устгах","description":""},{"id":"48","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл бүртгэх","description":""},{"id":"49","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл устгах","description":""},{"id":"50","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж бүртгэх","description":""},{"id":"51","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж засах","description":""},{"id":"52","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж устгах","description":""},{"id":"53","module_id":"3","module_name":"Үндсэн систем","page_id":"8","page_name":"Орчуулга","name":"Орчуулах","description":""},{"id":"54","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгчийн эрх өөрчлөх","description":""},{"id":"55","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Нууц үг өөрчлөх","description":""},{"id":"56","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгчийн эрх өөрчлөх","description":""},{"id":"57","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"\t Нууц үг өөрчлөх","description":""},{"id":"58","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын ажилтан","description":""},{"id":"59","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын хэрэглэгчийн эрх","description":""},{"id":"60","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын тээврийн хэрэгсэл","description":""},{"id":"61","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын төхөөрөмж","description":""},{"id":"28","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч харах","description":""},{"id":"32","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх харах","description":""},{"id":"30","module_id":"3","module_name":"Үндсэн систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч харах","description":""},{"id":"31","module_id":"3","module_name":"Үндсэн систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага харах","description":""},{"id":"19","module_id":"3","module_name":"Үндсэн систем","page_id":"8","page_name":"Орчуулга","name":"Орчуулга харах","description":""},{"id":"29","module_id":"3","module_name":"Үндсэн систем","page_id":"7","page_name":"Хуудас","name":"Хуудас харах","description":""},{"id":"16","module_id":"5","module_name":"Хянах систем","page_id":"16","page_name":"Хянах самбар","name":"Хянах самбар харах","description":""}]}}
+[2022-11-07 19:42:22] 200 -    78ms PUT /auth/org org_id=20000002  {"message":"success","result":{"id":"27","name":"Админ","modules":[{"code":"Main system","description":"Үндсэн систем","icon":"HomeIcon","id":"3","name":"Үндсэн систем","pages":[{"id":"10","code":"User","name":"Хэрэглэгч","path":"/organization/user","icon":"UserIcon","sequence":101,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"11","code":"User role","name":"Хэрэглэгчийн эрх","path":"/organization/role","icon":"ShieldCheckIcon","sequence":102,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"20","code":"Vehicle","name":"Тээврийн хэрэгсэл","path":"/organization/vehicle","icon":"TruckIcon","sequence":103,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"21","code":"Terminal","name":"Төхөөрөмж","path":"/organization/terminal","icon":"DeviceTabletIcon","sequence":104,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"8","code":"Translation","name":"Орчуулга","path":"/translation","icon":"LanguageIcon","sequence":111,"group_code":"Setting","group_name":"Тохиргоо"},{"id":"7","code":"Menu","name":"Хуудас","path":"/menu","icon":"Bars4Icon","sequence":112,"group_code":"Setting","group_name":"Тохиргоо"}],"sequence":1},{"code":"Observe system","description":"Хянах систем","icon":"ComputerDesktopIcon","id":"5","name":"Хянах систем","pages":[{"id":"9","code":"User","name":"Хэрэглэгч","path":"/user","icon":"UserIcon","sequence":1,"group_code":"System registration","group_name":"Системийн бүртгэл"},{"id":"6","code":"Organization","name":"Байгууллага","path":"/organization","icon":"BuildingOfficeIcon","sequence":2,"group_code":"System registration","group_name":"Системийн бүртгэл"},{"id":"16","code":"Dashboard","name":"Хянах самбар","path":"/dashboard","icon":"ComputerDesktopIcon","sequence":11,"group_code":"Observe","group_name":"Хянах"}],"sequence":11}],"actions":[{"id":"34","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл харах","description":""},{"id":"35","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж харах","description":""},{"id":"36","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч бүртгэх","description":""},{"id":"37","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч засах","description":""},{"id":"38","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч устгах","description":""},{"id":"39","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага бүртгэх","description":""},{"id":"40","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага засах","description":""},{"id":"41","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага устгах","description":""},{"id":"42","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч бүртгэх","description":""},{"id":"43","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч засах","description":""},{"id":"44","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч устгах","description":""},{"id":"45","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх бүртгэх","description":""},{"id":"46","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх засах","description":""},{"id":"47","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх устгах","description":""},{"id":"48","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл бүртгэх","description":""},{"id":"49","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл устгах","description":""},{"id":"50","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж бүртгэх","description":""},{"id":"51","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж засах","description":""},{"id":"52","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж устгах","description":""},{"id":"53","module_id":"3","module_name":"Үндсэн систем","page_id":"8","page_name":"Орчуулга","name":"Орчуулах","description":""},{"id":"54","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгчийн эрх өөрчлөх","description":""},{"id":"55","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Нууц үг өөрчлөх","description":""},{"id":"56","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгчийн эрх өөрчлөх","description":""},{"id":"57","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"\t Нууц үг өөрчлөх","description":""},{"id":"58","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын ажилтан","description":""},{"id":"59","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын хэрэглэгчийн эрх","description":""},{"id":"60","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын тээврийн хэрэгсэл","description":""},{"id":"61","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын төхөөрөмж","description":""},{"id":"28","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч харах","description":""},{"id":"32","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх харах","description":""},{"id":"30","module_id":"3","module_name":"Үндсэн систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч харах","description":""},{"id":"31","module_id":"3","module_name":"Үндсэн систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага харах","description":""},{"id":"19","module_id":"3","module_name":"Үндсэн систем","page_id":"8","page_name":"Орчуулга","name":"Орчуулга харах","description":""},{"id":"29","module_id":"3","module_name":"Үндсэн систем","page_id":"7","page_name":"Хуудас","name":"Хуудас харах","description":""},{"id":"16","module_id":"5","module_name":"Хянах систем","page_id":"16","page_name":"Хянах самбар","name":"Хянах самбар харах","description":""}]}}
+[2022-11-07 19:43:03] 400 -     9ms PUT /auth/org org_id=  {"message":"org_id is required "}
+[2022-11-07 19:43:50] 400 -     7ms PUT /auth/org org_id=  {"message":"org_id is required "}
+[2022-11-07 19:48:23] 400 -     7ms PUT /auth/org org_id=  {"message":"org_id is required "}
+[2022-11-07 19:49:24] 400 -     8ms PUT /auth/org org_id=  {"message":"org_id is required "}
+[2022-11-07 19:49:54] 400 -     4ms PUT /auth/org org_id=  {"message":"org_id is required "}
+[2022-11-07 19:50:20] 400 -     8ms PUT /auth/org org_id=  {"message":"org_id is required "}
+[2022-11-07 19:50:31] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:54:34] 400 -     9ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:54:34] 400 -     5ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:54:50] 404 -      0s GET /   Cannot GET /
+[2022-11-07 19:54:51] 404 -      0s GET /favicon.ico   Cannot GET /favicon.ico
+[2022-11-07 19:54:55] 200 -      0s GET /metrics   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9/dist/Chart.bundle.min.js"></script>
+
+	<title>Tempalte Backend Go - Monitoring Page</title>
+<style>
+	body {
+		margin: 0;
+		font: 16px / 1.6 'Roboto', sans-serif;
+	}
+	.wrapper {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.title {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	.title h1 {
+		font-size: 1.8em;
+		padding: 0;
+		margin: 0;
+	}
+	.row {
+		display: flex;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.row .column:first-child { width: 35%; }
+	.row .column:last-child { width: 65%; }
+	.metric {
+		color: #777;
+		font-weight: 900;
+	}
+	h2 {
+		padding: 0;
+		margin: 0;
+		font-size: 2.2em;
+	}
+	h2 span {
+		font-size: 12px;
+		color: #777;
+	}
+	h2 span.ram_os { color: rgba(255, 150, 0, .8); }
+	h2 span.ram_total { color: rgba(0, 200, 0, .8); }
+	canvas {
+		width: 200px;
+		height: 180px;
+	}
+
+</style>
+</head>
+<body>
+	<section class="wrapper">
+	<div class="title"><h1>Tempalte Backend Go - Monitoring Page</h1></div>
+	<section class="charts">
+		<div class="row">
+			<div class="column">
+				<div class="metric">CPU Usage</div>
+				<h2 id="cpuMetric">0.00%</h2>
+			</div>
+			<div class="column">
+				<canvas id="cpuChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Memory Usage</div>
+				<h2 id="ramMetric" title="PID used / OS used / OS total">0.00 MB</h2>
+			</div>
+			<div class="column">
+				<canvas id="ramChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Response Time</div>
+				<h2 id="rtimeMetric">0ms</h2>
+			</div>
+			<div class="column">
+				<canvas id="rtimeChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Open Connections</div>
+				<h2 id="connsMetric">0</h2>
+			</div>
+			<div class="column">
+				<canvas id="connsChart"></canvas>
+			</div>
+		</div>
+	</section>
+	</section>
+<script>
+	function formatBytes(bytes, decimals = 1) {
+		if (bytes === 0) return '0 Bytes';
+
+		const k = 1024;
+		const dm = decimals < 0 ? 0 : decimals;
+		const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+		const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+		return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+	}
+	Chart.defaults.global.legend.display = false;
+	Chart.defaults.global.defaultFontSize = 8;
+	Chart.defaults.global.animation.duration = 1000;
+	Chart.defaults.global.animation.easing = 'easeOutQuart';
+	Chart.defaults.global.elements.line.backgroundColor = 'rgba(0, 172, 215, 0.25)';
+	Chart.defaults.global.elements.line.borderColor = 'rgba(0, 172, 215, 1)';
+	Chart.defaults.global.elements.line.borderWidth = 2;
+
+	const options = {
+		scales: {
+			yAxes: [{ ticks: { beginAtZero: true }}],
+			xAxes: [{
+				type: 'time',
+				time: {
+					unitStepSize: 30,
+					unit: 'second'
+				},
+				gridlines: { display: false }
+			}]
+		},
+		tooltips: {	enabled: false },
+		responsive: true,
+		maintainAspectRatio: false,
+		animation: false
+	};
+	const cpuMetric = document.querySelector('#cpuMetric');
+	const ramMetric = document.querySelector('#ramMetric');
+	const rtimeMetric = document.querySelector('#rtimeMetric');
+	const connsMetric = document.querySelector('#connsMetric');
+
+	const cpuChartCtx = document.querySelector('#cpuChart').getContext('2d');
+	const ramChartCtx = document.querySelector('#ramChart').getContext('2d');
+	const rtimeChartCtx = document.querySelector('#rtimeChart').getContext('2d');
+	const connsChartCtx = document.querySelector('#connsChart').getContext('2d');
+
+	const cpuChart = createChart(cpuChartCtx);
+	const ramChart = createChart(ramChartCtx);
+	const rtimeChart = createChart(rtimeChartCtx);
+	const connsChart = createChart(connsChartCtx);
+
+	const charts = [cpuChart, ramChart, rtimeChart, connsChart];
+
+	function createChart(ctx) {
+		return new Chart(ctx, {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: [{
+					label: '',
+					data: [],
+					lineTension: 0.2,
+					pointRadius: 0,
+				}]
+			},
+			options
+		});
+	}
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(255, 200, 0, .6)',
+		borderColor: 'rgba(255, 150, 0, .8)',
+	})
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(0, 255, 0, .4)',
+		borderColor: 'rgba(0, 200, 0, .8)',
+	})
+	function update(json, rtime) {
+		cpu = json.pid.cpu.toFixed(1);
+		cpuOS = json.os.cpu.toFixed(1);
+
+		cpuMetric.innerHTML = cpu + '% <span>' + cpuOS + '%</span>';
+		ramMetric.innerHTML = formatBytes(json.pid.ram) + '<span> / </span><span class="ram_os">' + formatBytes(json.os.ram) +
+			'<span><span> / </span><span class="ram_total">' + formatBytes(json.os.total_ram) + '</span>';
+		rtimeMetric.innerHTML = rtime + 'ms <span>client</span>';
+		connsMetric.innerHTML = json.pid.conns + ' <span>' + json.os.conns + '</span>';
+
+		cpuChart.data.datasets[0].data.push(cpu);
+		ramChart.data.datasets[2].data.push((json.os.total_ram / 1e6).toFixed(2));
+		ramChart.data.datasets[1].data.push((json.os.ram / 1e6).toFixed(2));
+		ramChart.data.datasets[0].data.push((json.pid.ram / 1e6).toFixed(2));
+		rtimeChart.data.datasets[0].data.push(rtime);
+		connsChart.data.datasets[0].data.push(json.pid.conns);
+
+		const timestamp = new Date().getTime();
+
+		charts.forEach(chart => {
+			if (chart.data.labels.length > 50) {
+				chart.data.datasets.forEach(function (dataset) { dataset.data.shift(); });
+				chart.data.labels.shift();
+			}
+			chart.data.labels.push(timestamp);
+			chart.update();
+		});
+		setTimeout(fetchJSON, 2800)
+	}
+	function fetchJSON() {
+		var t1 = ''
+		var t0 = performance.now()
+		fetch(window.location.href, {
+				headers: { 'Accept': 'application/json' },
+				credentials: 'same-origin'
+			})
+			.then(res => {
+				t1 = performance.now()
+				return res.json()
+			})
+			.then(res => { update(res, Math.round(t1 - t0)) })
+			.catch(console.error);
+	}
+	fetchJSON()
+</script>
+</body>
+</html>
+
+[2022-11-07 19:54:56] 200 -      0s GET /metrics   {"pid":{"cpu":0.06892125933586703,"ram":25407488,"conns":6},"os":{"cpu":2.8562155144433627,"ram":10854535168,"total_ram":16891580416,"load_avg":0,"conns":140}}
+[2022-11-07 19:54:59] 200 -      0s GET /metrics   {"pid":{"cpu":0.06204418043323899,"ram":25522176,"conns":6},"os":{"cpu":3.6510500807754442,"ram":10864762880,"total_ram":16891580416,"load_avg":0,"conns":140}}
+[2022-11-07 19:55:01] 200 -      0s GET /metrics   {"pid":{"cpu":0.05641458775450696,"ram":25587712,"conns":6},"os":{"cpu":4.30699481865285,"ram":10873184256,"total_ram":16891580416,"load_avg":0,"conns":140}}
+[2022-11-07 19:55:04] 200 -      0s GET /metrics   {"pid":{"cpu":0.05173819287874133,"ram":25640960,"conns":6},"os":{"cpu":2.5800130633572826,"ram":10887540736,"total_ram":16891580416,"load_avg":0,"conns":139}}
+[2022-11-07 19:55:07] 200 -      0s GET /metrics   {"pid":{"cpu":0.04777768299534853,"ram":25681920,"conns":6},"os":{"cpu":1.523994811932555,"ram":10878779392,"total_ram":16891580416,"load_avg":0,"conns":140}}
+[2022-11-07 19:55:10] 200 -      0s GET /metrics   {"pid":{"cpu":0.051775899996919006,"ram":25968640,"conns":6},"os":{"cpu":1.4896373056994818,"ram":10859085824,"total_ram":16891580416,"load_avg":0,"conns":140}}
+[2022-11-07 19:55:12] 200 -      0s GET /metrics   {"pid":{"cpu":0.04832665109958641,"ram":25976832,"conns":6},"os":{"cpu":1.7851346965271015,"ram":10854690816,"total_ram":16891580416,"load_avg":0,"conns":139}}
+[2022-11-07 19:55:16] 200 -     1ms GET /metrics   {"pid":{"cpu":0.04854813425558528,"ram":26066944,"conns":6},"os":{"cpu":3.2552083333333335,"ram":10851430400,"total_ram":16891580416,"load_avg":0,"conns":140}}
+[2022-11-07 19:55:18] 200 -      0s GET /metrics   {"pid":{"cpu":0.05179193868442802,"ram":26157056,"conns":6},"os":{"cpu":1.4867485455720748,"ram":10850660352,"total_ram":16891580416,"load_avg":0,"conns":140}}
+[2022-11-07 19:55:21] 200 -      0s GET /metrics   {"pid":{"cpu":0.04891837067131145,"ram":26189824,"conns":6},"os":{"cpu":1.103896103896104,"ram":10845302784,"total_ram":16891580416,"load_avg":0,"conns":139}}
+[2022-11-07 19:55:24] 200 -      0s GET /metrics   {"pid":{"cpu":0.04634897272171758,"ram":26288128,"conns":6},"os":{"cpu":1.7572404816140579,"ram":10821799936,"total_ram":16891580416,"load_avg":0,"conns":140}}
+[2022-11-07 19:55:27] 200 -      0s GET /metrics   {"pid":{"cpu":0.04662003186005518,"ram":26374144,"conns":5},"os":{"cpu":1.2560386475829495,"ram":10815258624,"total_ram":16891580416,"load_avg":0,"conns":139}}
+[2022-11-07 19:55:30] 200 -      0s GET /metrics   {"pid":{"cpu":0.04687194414659719,"ram":26386432,"conns":5},"os":{"cpu":3.3430704316780266,"ram":10781270016,"total_ram":16891580416,"load_avg":0,"conns":138}}
+[2022-11-07 19:55:32] 200 -      0s GET /metrics   {"pid":{"cpu":0.044741071464619954,"ram":26406912,"conns":5},"os":{"cpu":8.238728511190399,"ram":10578853888,"total_ram":16891580416,"load_avg":0,"conns":139}}
+[2022-11-07 19:55:36] 200 -      0s GET /metrics   {"pid":{"cpu":0.04505309699948219,"ram":26406912,"conns":5},"os":{"cpu":4.6263345195729535,"ram":10604527616,"total_ram":16891580416,"load_avg":0,"conns":138}}
+[2022-11-07 19:55:39] 200 -      0s GET /metrics   {"pid":{"cpu":0.04533815538324393,"ram":26419200,"conns":5},"os":{"cpu":6.608072916666667,"ram":10613317632,"total_ram":16891580416,"load_avg":0,"conns":138}}
+[2022-11-07 19:55:41] 400 -    33ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:41] 400 -     6ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:42] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:42] 200 -      0s GET /metrics   {"pid":{"cpu":0.045596722698315974,"ram":26611712,"conns":6},"os":{"cpu":3.994845360824742,"ram":10619686912,"total_ram":16891580416,"load_avg":0,"conns":139}}
+[2022-11-07 19:55:42] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:42] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:43] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:45] 200 -     1ms GET /metrics   {"pid":{"cpu":0.0438496277414714,"ram":26632192,"conns":6},"os":{"cpu":10.871694417238002,"ram":10716790784,"total_ram":16891580416,"load_avg":0,"conns":139}}
+[2022-11-07 19:55:47] 400 -     6ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:48] 200 -      0s GET /metrics   {"pid":{"cpu":0.04222560432968609,"ram":26632192,"conns":6},"os":{"cpu":2.097450790577606,"ram":10725031936,"total_ram":16891580416,"load_avg":0,"conns":138}}
+[2022-11-07 19:55:49] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:49] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:50] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:50] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:50] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:51] 200 -      0s GET /metrics   {"pid":{"cpu":0.04257301385008447,"ram":26800128,"conns":6},"os":{"cpu":6.380208333333333,"ram":10735460352,"total_ram":16891580416,"load_avg":0,"conns":139}}
+[2022-11-07 19:55:51] 400 -     5ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:51] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:55:53] 200 -      0s GET /metrics   {"pid":{"cpu":0.04289804621775099,"ram":26820608,"conns":5},"os":{"cpu":5.216824258232801,"ram":10737872896,"total_ram":16891580416,"load_avg":0,"conns":135}}
+[2022-11-07 19:55:56] 200 -      0s GET /metrics   {"pid":{"cpu":0.04319786424495255,"ram":26845184,"conns":4},"os":{"cpu":3.53322528363047,"ram":10689126400,"total_ram":16891580416,"load_avg":0,"conns":134}}
+[2022-11-07 19:55:59] 200 -      0s GET /metrics   {"pid":{"cpu":0.04180476222171494,"ram":26865664,"conns":4},"os":{"cpu":2.693930542031808,"ram":10629902336,"total_ram":16891580416,"load_avg":0,"conns":134}}
+[2022-11-07 19:56:02] 200 -      0s GET /metrics   {"pid":{"cpu":0.04180476222171494,"ram":26865664,"conns":4},"os":{"cpu":2.693930542031808,"ram":10629902336,"total_ram":16891580416,"load_avg":0,"conns":134}}
+[2022-11-07 19:56:05] 200 -      0s GET /metrics   {"pid":{"cpu":0.04050201563277125,"ram":26877952,"conns":4},"os":{"cpu":3.8623823433950015,"ram":10587922432,"total_ram":16891580416,"load_avg":0,"conns":134}}
+[2022-11-07 19:56:08] 200 -      0s GET /metrics   {"pid":{"cpu":0.0392763575674789,"ram":26890240,"conns":4},"os":{"cpu":1.1312217194570136,"ram":10588221440,"total_ram":16891580416,"load_avg":0,"conns":134}}
+[2022-11-07 19:56:11] 200 -      0s GET /metrics   {"pid":{"cpu":0.03812306614311815,"ram":26918912,"conns":4},"os":{"cpu":1.8929503916449086,"ram":10582048768,"total_ram":16891580416,"load_avg":0,"conns":134}}
+[2022-11-07 19:56:13] 200 -      0s GET /metrics   {"pid":{"cpu":0.03851372131786,"ram":26927104,"conns":4},"os":{"cpu":1.3601036269430051,"ram":10585419776,"total_ram":16891580416,"load_avg":0,"conns":134}}
+[2022-11-07 19:56:15] 200 -      0s GET /metrics   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9/dist/Chart.bundle.min.js"></script>
+
+	<title>Tempalte Backend Go - Monitoring Page</title>
+<style>
+	body {
+		margin: 0;
+		font: 16px / 1.6 'Roboto', sans-serif;
+	}
+	.wrapper {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.title {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	.title h1 {
+		font-size: 1.8em;
+		padding: 0;
+		margin: 0;
+	}
+	.row {
+		display: flex;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.row .column:first-child { width: 35%; }
+	.row .column:last-child { width: 65%; }
+	.metric {
+		color: #777;
+		font-weight: 900;
+	}
+	h2 {
+		padding: 0;
+		margin: 0;
+		font-size: 2.2em;
+	}
+	h2 span {
+		font-size: 12px;
+		color: #777;
+	}
+	h2 span.ram_os { color: rgba(255, 150, 0, .8); }
+	h2 span.ram_total { color: rgba(0, 200, 0, .8); }
+	canvas {
+		width: 200px;
+		height: 180px;
+	}
+
+</style>
+</head>
+<body>
+	<section class="wrapper">
+	<div class="title"><h1>Tempalte Backend Go - Monitoring Page</h1></div>
+	<section class="charts">
+		<div class="row">
+			<div class="column">
+				<div class="metric">CPU Usage</div>
+				<h2 id="cpuMetric">0.00%</h2>
+			</div>
+			<div class="column">
+				<canvas id="cpuChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Memory Usage</div>
+				<h2 id="ramMetric" title="PID used / OS used / OS total">0.00 MB</h2>
+			</div>
+			<div class="column">
+				<canvas id="ramChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Response Time</div>
+				<h2 id="rtimeMetric">0ms</h2>
+			</div>
+			<div class="column">
+				<canvas id="rtimeChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Open Connections</div>
+				<h2 id="connsMetric">0</h2>
+			</div>
+			<div class="column">
+				<canvas id="connsChart"></canvas>
+			</div>
+		</div>
+	</section>
+	</section>
+<script>
+	function formatBytes(bytes, decimals = 1) {
+		if (bytes === 0) return '0 Bytes';
+
+		const k = 1024;
+		const dm = decimals < 0 ? 0 : decimals;
+		const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+		const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+		return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+	}
+	Chart.defaults.global.legend.display = false;
+	Chart.defaults.global.defaultFontSize = 8;
+	Chart.defaults.global.animation.duration = 1000;
+	Chart.defaults.global.animation.easing = 'easeOutQuart';
+	Chart.defaults.global.elements.line.backgroundColor = 'rgba(0, 172, 215, 0.25)';
+	Chart.defaults.global.elements.line.borderColor = 'rgba(0, 172, 215, 1)';
+	Chart.defaults.global.elements.line.borderWidth = 2;
+
+	const options = {
+		scales: {
+			yAxes: [{ ticks: { beginAtZero: true }}],
+			xAxes: [{
+				type: 'time',
+				time: {
+					unitStepSize: 30,
+					unit: 'second'
+				},
+				gridlines: { display: false }
+			}]
+		},
+		tooltips: {	enabled: false },
+		responsive: true,
+		maintainAspectRatio: false,
+		animation: false
+	};
+	const cpuMetric = document.querySelector('#cpuMetric');
+	const ramMetric = document.querySelector('#ramMetric');
+	const rtimeMetric = document.querySelector('#rtimeMetric');
+	const connsMetric = document.querySelector('#connsMetric');
+
+	const cpuChartCtx = document.querySelector('#cpuChart').getContext('2d');
+	const ramChartCtx = document.querySelector('#ramChart').getContext('2d');
+	const rtimeChartCtx = document.querySelector('#rtimeChart').getContext('2d');
+	const connsChartCtx = document.querySelector('#connsChart').getContext('2d');
+
+	const cpuChart = createChart(cpuChartCtx);
+	const ramChart = createChart(ramChartCtx);
+	const rtimeChart = createChart(rtimeChartCtx);
+	const connsChart = createChart(connsChartCtx);
+
+	const charts = [cpuChart, ramChart, rtimeChart, connsChart];
+
+	function createChart(ctx) {
+		return new Chart(ctx, {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: [{
+					label: '',
+					data: [],
+					lineTension: 0.2,
+					pointRadius: 0,
+				}]
+			},
+			options
+		});
+	}
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(255, 200, 0, .6)',
+		borderColor: 'rgba(255, 150, 0, .8)',
+	})
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(0, 255, 0, .4)',
+		borderColor: 'rgba(0, 200, 0, .8)',
+	})
+	function update(json, rtime) {
+		cpu = json.pid.cpu.toFixed(1);
+		cpuOS = json.os.cpu.toFixed(1);
+
+		cpuMetric.innerHTML = cpu + '% <span>' + cpuOS + '%</span>';
+		ramMetric.innerHTML = formatBytes(json.pid.ram) + '<span> / </span><span class="ram_os">' + formatBytes(json.os.ram) +
+			'<span><span> / </span><span class="ram_total">' + formatBytes(json.os.total_ram) + '</span>';
+		rtimeMetric.innerHTML = rtime + 'ms <span>client</span>';
+		connsMetric.innerHTML = json.pid.conns + ' <span>' + json.os.conns + '</span>';
+
+		cpuChart.data.datasets[0].data.push(cpu);
+		ramChart.data.datasets[2].data.push((json.os.total_ram / 1e6).toFixed(2));
+		ramChart.data.datasets[1].data.push((json.os.ram / 1e6).toFixed(2));
+		ramChart.data.datasets[0].data.push((json.pid.ram / 1e6).toFixed(2));
+		rtimeChart.data.datasets[0].data.push(rtime);
+		connsChart.data.datasets[0].data.push(json.pid.conns);
+
+		const timestamp = new Date().getTime();
+
+		charts.forEach(chart => {
+			if (chart.data.labels.length > 50) {
+				chart.data.datasets.forEach(function (dataset) { dataset.data.shift(); });
+				chart.data.labels.shift();
+			}
+			chart.data.labels.push(timestamp);
+			chart.update();
+		});
+		setTimeout(fetchJSON, 2800)
+	}
+	function fetchJSON() {
+		var t1 = ''
+		var t0 = performance.now()
+		fetch(window.location.href, {
+				headers: { 'Accept': 'application/json' },
+				credentials: 'same-origin'
+			})
+			.then(res => {
+				t1 = performance.now()
+				return res.json()
+			})
+			.then(res => { update(res, Math.round(t1 - t0)) })
+			.catch(console.error);
+	}
+	fetchJSON()
+</script>
+</body>
+</html>
+
+[2022-11-07 19:56:15] 200 -      0s GET /metrics   {"pid":{"cpu":0.03888479486725685,"ram":26939392,"conns":4},"os":{"cpu":1.9436345966958213,"ram":10563665920,"total_ram":16891580416,"load_avg":0,"conns":132}}
+[2022-11-07 19:56:18] 200 -      0s GET /metrics   {"pid":{"cpu":0.03923666556785767,"ram":26943488,"conns":5},"os":{"cpu":4.30281462309932,"ram":10609086464,"total_ram":16891580416,"load_avg":0,"conns":134}}
+[2022-11-07 19:56:21] 200 -      0s GET /metrics   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9/dist/Chart.bundle.min.js"></script>
+
+	<title>Tempalte Backend Go - Monitoring Page</title>
+<style>
+	body {
+		margin: 0;
+		font: 16px / 1.6 'Roboto', sans-serif;
+	}
+	.wrapper {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.title {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	.title h1 {
+		font-size: 1.8em;
+		padding: 0;
+		margin: 0;
+	}
+	.row {
+		display: flex;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.row .column:first-child { width: 35%; }
+	.row .column:last-child { width: 65%; }
+	.metric {
+		color: #777;
+		font-weight: 900;
+	}
+	h2 {
+		padding: 0;
+		margin: 0;
+		font-size: 2.2em;
+	}
+	h2 span {
+		font-size: 12px;
+		color: #777;
+	}
+	h2 span.ram_os { color: rgba(255, 150, 0, .8); }
+	h2 span.ram_total { color: rgba(0, 200, 0, .8); }
+	canvas {
+		width: 200px;
+		height: 180px;
+	}
+
+</style>
+</head>
+<body>
+	<section class="wrapper">
+	<div class="title"><h1>Tempalte Backend Go - Monitoring Page</h1></div>
+	<section class="charts">
+		<div class="row">
+			<div class="column">
+				<div class="metric">CPU Usage</div>
+				<h2 id="cpuMetric">0.00%</h2>
+			</div>
+			<div class="column">
+				<canvas id="cpuChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Memory Usage</div>
+				<h2 id="ramMetric" title="PID used / OS used / OS total">0.00 MB</h2>
+			</div>
+			<div class="column">
+				<canvas id="ramChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Response Time</div>
+				<h2 id="rtimeMetric">0ms</h2>
+			</div>
+			<div class="column">
+				<canvas id="rtimeChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Open Connections</div>
+				<h2 id="connsMetric">0</h2>
+			</div>
+			<div class="column">
+				<canvas id="connsChart"></canvas>
+			</div>
+		</div>
+	</section>
+	</section>
+<script>
+	function formatBytes(bytes, decimals = 1) {
+		if (bytes === 0) return '0 Bytes';
+
+		const k = 1024;
+		const dm = decimals < 0 ? 0 : decimals;
+		const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+		const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+		return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+	}
+	Chart.defaults.global.legend.display = false;
+	Chart.defaults.global.defaultFontSize = 8;
+	Chart.defaults.global.animation.duration = 1000;
+	Chart.defaults.global.animation.easing = 'easeOutQuart';
+	Chart.defaults.global.elements.line.backgroundColor = 'rgba(0, 172, 215, 0.25)';
+	Chart.defaults.global.elements.line.borderColor = 'rgba(0, 172, 215, 1)';
+	Chart.defaults.global.elements.line.borderWidth = 2;
+
+	const options = {
+		scales: {
+			yAxes: [{ ticks: { beginAtZero: true }}],
+			xAxes: [{
+				type: 'time',
+				time: {
+					unitStepSize: 30,
+					unit: 'second'
+				},
+				gridlines: { display: false }
+			}]
+		},
+		tooltips: {	enabled: false },
+		responsive: true,
+		maintainAspectRatio: false,
+		animation: false
+	};
+	const cpuMetric = document.querySelector('#cpuMetric');
+	const ramMetric = document.querySelector('#ramMetric');
+	const rtimeMetric = document.querySelector('#rtimeMetric');
+	const connsMetric = document.querySelector('#connsMetric');
+
+	const cpuChartCtx = document.querySelector('#cpuChart').getContext('2d');
+	const ramChartCtx = document.querySelector('#ramChart').getContext('2d');
+	const rtimeChartCtx = document.querySelector('#rtimeChart').getContext('2d');
+	const connsChartCtx = document.querySelector('#connsChart').getContext('2d');
+
+	const cpuChart = createChart(cpuChartCtx);
+	const ramChart = createChart(ramChartCtx);
+	const rtimeChart = createChart(rtimeChartCtx);
+	const connsChart = createChart(connsChartCtx);
+
+	const charts = [cpuChart, ramChart, rtimeChart, connsChart];
+
+	function createChart(ctx) {
+		return new Chart(ctx, {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: [{
+					label: '',
+					data: [],
+					lineTension: 0.2,
+					pointRadius: 0,
+				}]
+			},
+			options
+		});
+	}
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(255, 200, 0, .6)',
+		borderColor: 'rgba(255, 150, 0, .8)',
+	})
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(0, 255, 0, .4)',
+		borderColor: 'rgba(0, 200, 0, .8)',
+	})
+	function update(json, rtime) {
+		cpu = json.pid.cpu.toFixed(1);
+		cpuOS = json.os.cpu.toFixed(1);
+
+		cpuMetric.innerHTML = cpu + '% <span>' + cpuOS + '%</span>';
+		ramMetric.innerHTML = formatBytes(json.pid.ram) + '<span> / </span><span class="ram_os">' + formatBytes(json.os.ram) +
+			'<span><span> / </span><span class="ram_total">' + formatBytes(json.os.total_ram) + '</span>';
+		rtimeMetric.innerHTML = rtime + 'ms <span>client</span>';
+		connsMetric.innerHTML = json.pid.conns + ' <span>' + json.os.conns + '</span>';
+
+		cpuChart.data.datasets[0].data.push(cpu);
+		ramChart.data.datasets[2].data.push((json.os.total_ram / 1e6).toFixed(2));
+		ramChart.data.datasets[1].data.push((json.os.ram / 1e6).toFixed(2));
+		ramChart.data.datasets[0].data.push((json.pid.ram / 1e6).toFixed(2));
+		rtimeChart.data.datasets[0].data.push(rtime);
+		connsChart.data.datasets[0].data.push(json.pid.conns);
+
+		const timestamp = new Date().getTime();
+
+		charts.forEach(chart => {
+			if (chart.data.labels.length > 50) {
+				chart.data.datasets.forEach(function (dataset) { dataset.data.shift(); });
+				chart.data.labels.shift();
+			}
+			chart.data.labels.push(timestamp);
+			chart.update();
+		});
+		setTimeout(fetchJSON, 2800)
+	}
+	function fetchJSON() {
+		var t1 = ''
+		var t0 = performance.now()
+		fetch(window.location.href, {
+				headers: { 'Accept': 'application/json' },
+				credentials: 'same-origin'
+			})
+			.then(res => {
+				t1 = performance.now()
+				return res.json()
+			})
+			.then(res => { update(res, Math.round(t1 - t0)) })
+			.catch(console.error);
+	}
+	fetchJSON()
+</script>
+</body>
+</html>
+
+[2022-11-07 19:56:21] 200 -      0s GET /metrics   {"pid":{"cpu":0.03820722829496157,"ram":26955776,"conns":5},"os":{"cpu":1.1749347258485638,"ram":10611277824,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:21] 200 -      0s GET /metrics   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9/dist/Chart.bundle.min.js"></script>
+
+	<title>Tempalte Backend Go - Monitoring Page</title>
+<style>
+	body {
+		margin: 0;
+		font: 16px / 1.6 'Roboto', sans-serif;
+	}
+	.wrapper {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.title {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	.title h1 {
+		font-size: 1.8em;
+		padding: 0;
+		margin: 0;
+	}
+	.row {
+		display: flex;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.row .column:first-child { width: 35%; }
+	.row .column:last-child { width: 65%; }
+	.metric {
+		color: #777;
+		font-weight: 900;
+	}
+	h2 {
+		padding: 0;
+		margin: 0;
+		font-size: 2.2em;
+	}
+	h2 span {
+		font-size: 12px;
+		color: #777;
+	}
+	h2 span.ram_os { color: rgba(255, 150, 0, .8); }
+	h2 span.ram_total { color: rgba(0, 200, 0, .8); }
+	canvas {
+		width: 200px;
+		height: 180px;
+	}
+
+</style>
+</head>
+<body>
+	<section class="wrapper">
+	<div class="title"><h1>Tempalte Backend Go - Monitoring Page</h1></div>
+	<section class="charts">
+		<div class="row">
+			<div class="column">
+				<div class="metric">CPU Usage</div>
+				<h2 id="cpuMetric">0.00%</h2>
+			</div>
+			<div class="column">
+				<canvas id="cpuChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Memory Usage</div>
+				<h2 id="ramMetric" title="PID used / OS used / OS total">0.00 MB</h2>
+			</div>
+			<div class="column">
+				<canvas id="ramChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Response Time</div>
+				<h2 id="rtimeMetric">0ms</h2>
+			</div>
+			<div class="column">
+				<canvas id="rtimeChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Open Connections</div>
+				<h2 id="connsMetric">0</h2>
+			</div>
+			<div class="column">
+				<canvas id="connsChart"></canvas>
+			</div>
+		</div>
+	</section>
+	</section>
+<script>
+	function formatBytes(bytes, decimals = 1) {
+		if (bytes === 0) return '0 Bytes';
+
+		const k = 1024;
+		const dm = decimals < 0 ? 0 : decimals;
+		const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+		const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+		return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+	}
+	Chart.defaults.global.legend.display = false;
+	Chart.defaults.global.defaultFontSize = 8;
+	Chart.defaults.global.animation.duration = 1000;
+	Chart.defaults.global.animation.easing = 'easeOutQuart';
+	Chart.defaults.global.elements.line.backgroundColor = 'rgba(0, 172, 215, 0.25)';
+	Chart.defaults.global.elements.line.borderColor = 'rgba(0, 172, 215, 1)';
+	Chart.defaults.global.elements.line.borderWidth = 2;
+
+	const options = {
+		scales: {
+			yAxes: [{ ticks: { beginAtZero: true }}],
+			xAxes: [{
+				type: 'time',
+				time: {
+					unitStepSize: 30,
+					unit: 'second'
+				},
+				gridlines: { display: false }
+			}]
+		},
+		tooltips: {	enabled: false },
+		responsive: true,
+		maintainAspectRatio: false,
+		animation: false
+	};
+	const cpuMetric = document.querySelector('#cpuMetric');
+	const ramMetric = document.querySelector('#ramMetric');
+	const rtimeMetric = document.querySelector('#rtimeMetric');
+	const connsMetric = document.querySelector('#connsMetric');
+
+	const cpuChartCtx = document.querySelector('#cpuChart').getContext('2d');
+	const ramChartCtx = document.querySelector('#ramChart').getContext('2d');
+	const rtimeChartCtx = document.querySelector('#rtimeChart').getContext('2d');
+	const connsChartCtx = document.querySelector('#connsChart').getContext('2d');
+
+	const cpuChart = createChart(cpuChartCtx);
+	const ramChart = createChart(ramChartCtx);
+	const rtimeChart = createChart(rtimeChartCtx);
+	const connsChart = createChart(connsChartCtx);
+
+	const charts = [cpuChart, ramChart, rtimeChart, connsChart];
+
+	function createChart(ctx) {
+		return new Chart(ctx, {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: [{
+					label: '',
+					data: [],
+					lineTension: 0.2,
+					pointRadius: 0,
+				}]
+			},
+			options
+		});
+	}
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(255, 200, 0, .6)',
+		borderColor: 'rgba(255, 150, 0, .8)',
+	})
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(0, 255, 0, .4)',
+		borderColor: 'rgba(0, 200, 0, .8)',
+	})
+	function update(json, rtime) {
+		cpu = json.pid.cpu.toFixed(1);
+		cpuOS = json.os.cpu.toFixed(1);
+
+		cpuMetric.innerHTML = cpu + '% <span>' + cpuOS + '%</span>';
+		ramMetric.innerHTML = formatBytes(json.pid.ram) + '<span> / </span><span class="ram_os">' + formatBytes(json.os.ram) +
+			'<span><span> / </span><span class="ram_total">' + formatBytes(json.os.total_ram) + '</span>';
+		rtimeMetric.innerHTML = rtime + 'ms <span>client</span>';
+		connsMetric.innerHTML = json.pid.conns + ' <span>' + json.os.conns + '</span>';
+
+		cpuChart.data.datasets[0].data.push(cpu);
+		ramChart.data.datasets[2].data.push((json.os.total_ram / 1e6).toFixed(2));
+		ramChart.data.datasets[1].data.push((json.os.ram / 1e6).toFixed(2));
+		ramChart.data.datasets[0].data.push((json.pid.ram / 1e6).toFixed(2));
+		rtimeChart.data.datasets[0].data.push(rtime);
+		connsChart.data.datasets[0].data.push(json.pid.conns);
+
+		const timestamp = new Date().getTime();
+
+		charts.forEach(chart => {
+			if (chart.data.labels.length > 50) {
+				chart.data.datasets.forEach(function (dataset) { dataset.data.shift(); });
+				chart.data.labels.shift();
+			}
+			chart.data.labels.push(timestamp);
+			chart.update();
+		});
+		setTimeout(fetchJSON, 2800)
+	}
+	function fetchJSON() {
+		var t1 = ''
+		var t0 = performance.now()
+		fetch(window.location.href, {
+				headers: { 'Accept': 'application/json' },
+				credentials: 'same-origin'
+			})
+			.then(res => {
+				t1 = performance.now()
+				return res.json()
+			})
+			.then(res => { update(res, Math.round(t1 - t0)) })
+			.catch(console.error);
+	}
+	fetchJSON()
+</script>
+</body>
+</html>
+
+[2022-11-07 19:56:21] 200 -      0s GET /metrics   {"pid":{"cpu":0.03820722829496157,"ram":26955776,"conns":5},"os":{"cpu":1.1749347258485638,"ram":10611277824,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:21] 200 -      0s GET /metrics   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9/dist/Chart.bundle.min.js"></script>
+
+	<title>Tempalte Backend Go - Monitoring Page</title>
+<style>
+	body {
+		margin: 0;
+		font: 16px / 1.6 'Roboto', sans-serif;
+	}
+	.wrapper {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.title {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	.title h1 {
+		font-size: 1.8em;
+		padding: 0;
+		margin: 0;
+	}
+	.row {
+		display: flex;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.row .column:first-child { width: 35%; }
+	.row .column:last-child { width: 65%; }
+	.metric {
+		color: #777;
+		font-weight: 900;
+	}
+	h2 {
+		padding: 0;
+		margin: 0;
+		font-size: 2.2em;
+	}
+	h2 span {
+		font-size: 12px;
+		color: #777;
+	}
+	h2 span.ram_os { color: rgba(255, 150, 0, .8); }
+	h2 span.ram_total { color: rgba(0, 200, 0, .8); }
+	canvas {
+		width: 200px;
+		height: 180px;
+	}
+
+</style>
+</head>
+<body>
+	<section class="wrapper">
+	<div class="title"><h1>Tempalte Backend Go - Monitoring Page</h1></div>
+	<section class="charts">
+		<div class="row">
+			<div class="column">
+				<div class="metric">CPU Usage</div>
+				<h2 id="cpuMetric">0.00%</h2>
+			</div>
+			<div class="column">
+				<canvas id="cpuChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Memory Usage</div>
+				<h2 id="ramMetric" title="PID used / OS used / OS total">0.00 MB</h2>
+			</div>
+			<div class="column">
+				<canvas id="ramChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Response Time</div>
+				<h2 id="rtimeMetric">0ms</h2>
+			</div>
+			<div class="column">
+				<canvas id="rtimeChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Open Connections</div>
+				<h2 id="connsMetric">0</h2>
+			</div>
+			<div class="column">
+				<canvas id="connsChart"></canvas>
+			</div>
+		</div>
+	</section>
+	</section>
+<script>
+	function formatBytes(bytes, decimals = 1) {
+		if (bytes === 0) return '0 Bytes';
+
+		const k = 1024;
+		const dm = decimals < 0 ? 0 : decimals;
+		const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+		const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+		return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+	}
+	Chart.defaults.global.legend.display = false;
+	Chart.defaults.global.defaultFontSize = 8;
+	Chart.defaults.global.animation.duration = 1000;
+	Chart.defaults.global.animation.easing = 'easeOutQuart';
+	Chart.defaults.global.elements.line.backgroundColor = 'rgba(0, 172, 215, 0.25)';
+	Chart.defaults.global.elements.line.borderColor = 'rgba(0, 172, 215, 1)';
+	Chart.defaults.global.elements.line.borderWidth = 2;
+
+	const options = {
+		scales: {
+			yAxes: [{ ticks: { beginAtZero: true }}],
+			xAxes: [{
+				type: 'time',
+				time: {
+					unitStepSize: 30,
+					unit: 'second'
+				},
+				gridlines: { display: false }
+			}]
+		},
+		tooltips: {	enabled: false },
+		responsive: true,
+		maintainAspectRatio: false,
+		animation: false
+	};
+	const cpuMetric = document.querySelector('#cpuMetric');
+	const ramMetric = document.querySelector('#ramMetric');
+	const rtimeMetric = document.querySelector('#rtimeMetric');
+	const connsMetric = document.querySelector('#connsMetric');
+
+	const cpuChartCtx = document.querySelector('#cpuChart').getContext('2d');
+	const ramChartCtx = document.querySelector('#ramChart').getContext('2d');
+	const rtimeChartCtx = document.querySelector('#rtimeChart').getContext('2d');
+	const connsChartCtx = document.querySelector('#connsChart').getContext('2d');
+
+	const cpuChart = createChart(cpuChartCtx);
+	const ramChart = createChart(ramChartCtx);
+	const rtimeChart = createChart(rtimeChartCtx);
+	const connsChart = createChart(connsChartCtx);
+
+	const charts = [cpuChart, ramChart, rtimeChart, connsChart];
+
+	function createChart(ctx) {
+		return new Chart(ctx, {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: [{
+					label: '',
+					data: [],
+					lineTension: 0.2,
+					pointRadius: 0,
+				}]
+			},
+			options
+		});
+	}
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(255, 200, 0, .6)',
+		borderColor: 'rgba(255, 150, 0, .8)',
+	})
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(0, 255, 0, .4)',
+		borderColor: 'rgba(0, 200, 0, .8)',
+	})
+	function update(json, rtime) {
+		cpu = json.pid.cpu.toFixed(1);
+		cpuOS = json.os.cpu.toFixed(1);
+
+		cpuMetric.innerHTML = cpu + '% <span>' + cpuOS + '%</span>';
+		ramMetric.innerHTML = formatBytes(json.pid.ram) + '<span> / </span><span class="ram_os">' + formatBytes(json.os.ram) +
+			'<span><span> / </span><span class="ram_total">' + formatBytes(json.os.total_ram) + '</span>';
+		rtimeMetric.innerHTML = rtime + 'ms <span>client</span>';
+		connsMetric.innerHTML = json.pid.conns + ' <span>' + json.os.conns + '</span>';
+
+		cpuChart.data.datasets[0].data.push(cpu);
+		ramChart.data.datasets[2].data.push((json.os.total_ram / 1e6).toFixed(2));
+		ramChart.data.datasets[1].data.push((json.os.ram / 1e6).toFixed(2));
+		ramChart.data.datasets[0].data.push((json.pid.ram / 1e6).toFixed(2));
+		rtimeChart.data.datasets[0].data.push(rtime);
+		connsChart.data.datasets[0].data.push(json.pid.conns);
+
+		const timestamp = new Date().getTime();
+
+		charts.forEach(chart => {
+			if (chart.data.labels.length > 50) {
+				chart.data.datasets.forEach(function (dataset) { dataset.data.shift(); });
+				chart.data.labels.shift();
+			}
+			chart.data.labels.push(timestamp);
+			chart.update();
+		});
+		setTimeout(fetchJSON, 2800)
+	}
+	function fetchJSON() {
+		var t1 = ''
+		var t0 = performance.now()
+		fetch(window.location.href, {
+				headers: { 'Accept': 'application/json' },
+				credentials: 'same-origin'
+			})
+			.then(res => {
+				t1 = performance.now()
+				return res.json()
+			})
+			.then(res => { update(res, Math.round(t1 - t0)) })
+			.catch(console.error);
+	}
+	fetchJSON()
+</script>
+</body>
+</html>
+
+[2022-11-07 19:56:21] 200 -      0s GET /metrics   {"pid":{"cpu":0.03820722829496157,"ram":26955776,"conns":5},"os":{"cpu":1.1749347258485638,"ram":10611277824,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:21] 200 -      0s GET /metrics   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9/dist/Chart.bundle.min.js"></script>
+
+	<title>Tempalte Backend Go - Monitoring Page</title>
+<style>
+	body {
+		margin: 0;
+		font: 16px / 1.6 'Roboto', sans-serif;
+	}
+	.wrapper {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.title {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	.title h1 {
+		font-size: 1.8em;
+		padding: 0;
+		margin: 0;
+	}
+	.row {
+		display: flex;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.row .column:first-child { width: 35%; }
+	.row .column:last-child { width: 65%; }
+	.metric {
+		color: #777;
+		font-weight: 900;
+	}
+	h2 {
+		padding: 0;
+		margin: 0;
+		font-size: 2.2em;
+	}
+	h2 span {
+		font-size: 12px;
+		color: #777;
+	}
+	h2 span.ram_os { color: rgba(255, 150, 0, .8); }
+	h2 span.ram_total { color: rgba(0, 200, 0, .8); }
+	canvas {
+		width: 200px;
+		height: 180px;
+	}
+
+</style>
+</head>
+<body>
+	<section class="wrapper">
+	<div class="title"><h1>Tempalte Backend Go - Monitoring Page</h1></div>
+	<section class="charts">
+		<div class="row">
+			<div class="column">
+				<div class="metric">CPU Usage</div>
+				<h2 id="cpuMetric">0.00%</h2>
+			</div>
+			<div class="column">
+				<canvas id="cpuChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Memory Usage</div>
+				<h2 id="ramMetric" title="PID used / OS used / OS total">0.00 MB</h2>
+			</div>
+			<div class="column">
+				<canvas id="ramChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Response Time</div>
+				<h2 id="rtimeMetric">0ms</h2>
+			</div>
+			<div class="column">
+				<canvas id="rtimeChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Open Connections</div>
+				<h2 id="connsMetric">0</h2>
+			</div>
+			<div class="column">
+				<canvas id="connsChart"></canvas>
+			</div>
+		</div>
+	</section>
+	</section>
+<script>
+	function formatBytes(bytes, decimals = 1) {
+		if (bytes === 0) return '0 Bytes';
+
+		const k = 1024;
+		const dm = decimals < 0 ? 0 : decimals;
+		const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+		const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+		return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+	}
+	Chart.defaults.global.legend.display = false;
+	Chart.defaults.global.defaultFontSize = 8;
+	Chart.defaults.global.animation.duration = 1000;
+	Chart.defaults.global.animation.easing = 'easeOutQuart';
+	Chart.defaults.global.elements.line.backgroundColor = 'rgba(0, 172, 215, 0.25)';
+	Chart.defaults.global.elements.line.borderColor = 'rgba(0, 172, 215, 1)';
+	Chart.defaults.global.elements.line.borderWidth = 2;
+
+	const options = {
+		scales: {
+			yAxes: [{ ticks: { beginAtZero: true }}],
+			xAxes: [{
+				type: 'time',
+				time: {
+					unitStepSize: 30,
+					unit: 'second'
+				},
+				gridlines: { display: false }
+			}]
+		},
+		tooltips: {	enabled: false },
+		responsive: true,
+		maintainAspectRatio: false,
+		animation: false
+	};
+	const cpuMetric = document.querySelector('#cpuMetric');
+	const ramMetric = document.querySelector('#ramMetric');
+	const rtimeMetric = document.querySelector('#rtimeMetric');
+	const connsMetric = document.querySelector('#connsMetric');
+
+	const cpuChartCtx = document.querySelector('#cpuChart').getContext('2d');
+	const ramChartCtx = document.querySelector('#ramChart').getContext('2d');
+	const rtimeChartCtx = document.querySelector('#rtimeChart').getContext('2d');
+	const connsChartCtx = document.querySelector('#connsChart').getContext('2d');
+
+	const cpuChart = createChart(cpuChartCtx);
+	const ramChart = createChart(ramChartCtx);
+	const rtimeChart = createChart(rtimeChartCtx);
+	const connsChart = createChart(connsChartCtx);
+
+	const charts = [cpuChart, ramChart, rtimeChart, connsChart];
+
+	function createChart(ctx) {
+		return new Chart(ctx, {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: [{
+					label: '',
+					data: [],
+					lineTension: 0.2,
+					pointRadius: 0,
+				}]
+			},
+			options
+		});
+	}
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(255, 200, 0, .6)',
+		borderColor: 'rgba(255, 150, 0, .8)',
+	})
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(0, 255, 0, .4)',
+		borderColor: 'rgba(0, 200, 0, .8)',
+	})
+	function update(json, rtime) {
+		cpu = json.pid.cpu.toFixed(1);
+		cpuOS = json.os.cpu.toFixed(1);
+
+		cpuMetric.innerHTML = cpu + '% <span>' + cpuOS + '%</span>';
+		ramMetric.innerHTML = formatBytes(json.pid.ram) + '<span> / </span><span class="ram_os">' + formatBytes(json.os.ram) +
+			'<span><span> / </span><span class="ram_total">' + formatBytes(json.os.total_ram) + '</span>';
+		rtimeMetric.innerHTML = rtime + 'ms <span>client</span>';
+		connsMetric.innerHTML = json.pid.conns + ' <span>' + json.os.conns + '</span>';
+
+		cpuChart.data.datasets[0].data.push(cpu);
+		ramChart.data.datasets[2].data.push((json.os.total_ram / 1e6).toFixed(2));
+		ramChart.data.datasets[1].data.push((json.os.ram / 1e6).toFixed(2));
+		ramChart.data.datasets[0].data.push((json.pid.ram / 1e6).toFixed(2));
+		rtimeChart.data.datasets[0].data.push(rtime);
+		connsChart.data.datasets[0].data.push(json.pid.conns);
+
+		const timestamp = new Date().getTime();
+
+		charts.forEach(chart => {
+			if (chart.data.labels.length > 50) {
+				chart.data.datasets.forEach(function (dataset) { dataset.data.shift(); });
+				chart.data.labels.shift();
+			}
+			chart.data.labels.push(timestamp);
+			chart.update();
+		});
+		setTimeout(fetchJSON, 2800)
+	}
+	function fetchJSON() {
+		var t1 = ''
+		var t0 = performance.now()
+		fetch(window.location.href, {
+				headers: { 'Accept': 'application/json' },
+				credentials: 'same-origin'
+			})
+			.then(res => {
+				t1 = performance.now()
+				return res.json()
+			})
+			.then(res => { update(res, Math.round(t1 - t0)) })
+			.catch(console.error);
+	}
+	fetchJSON()
+</script>
+</body>
+</html>
+
+[2022-11-07 19:56:21] 200 -      0s GET /metrics   {"pid":{"cpu":0.03820722829496157,"ram":26955776,"conns":5},"os":{"cpu":1.1749347258485638,"ram":10611277824,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:22] 200 -      0s GET /metrics   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9/dist/Chart.bundle.min.js"></script>
+
+	<title>Tempalte Backend Go - Monitoring Page</title>
+<style>
+	body {
+		margin: 0;
+		font: 16px / 1.6 'Roboto', sans-serif;
+	}
+	.wrapper {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.title {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	.title h1 {
+		font-size: 1.8em;
+		padding: 0;
+		margin: 0;
+	}
+	.row {
+		display: flex;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.row .column:first-child { width: 35%; }
+	.row .column:last-child { width: 65%; }
+	.metric {
+		color: #777;
+		font-weight: 900;
+	}
+	h2 {
+		padding: 0;
+		margin: 0;
+		font-size: 2.2em;
+	}
+	h2 span {
+		font-size: 12px;
+		color: #777;
+	}
+	h2 span.ram_os { color: rgba(255, 150, 0, .8); }
+	h2 span.ram_total { color: rgba(0, 200, 0, .8); }
+	canvas {
+		width: 200px;
+		height: 180px;
+	}
+
+</style>
+</head>
+<body>
+	<section class="wrapper">
+	<div class="title"><h1>Tempalte Backend Go - Monitoring Page</h1></div>
+	<section class="charts">
+		<div class="row">
+			<div class="column">
+				<div class="metric">CPU Usage</div>
+				<h2 id="cpuMetric">0.00%</h2>
+			</div>
+			<div class="column">
+				<canvas id="cpuChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Memory Usage</div>
+				<h2 id="ramMetric" title="PID used / OS used / OS total">0.00 MB</h2>
+			</div>
+			<div class="column">
+				<canvas id="ramChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Response Time</div>
+				<h2 id="rtimeMetric">0ms</h2>
+			</div>
+			<div class="column">
+				<canvas id="rtimeChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Open Connections</div>
+				<h2 id="connsMetric">0</h2>
+			</div>
+			<div class="column">
+				<canvas id="connsChart"></canvas>
+			</div>
+		</div>
+	</section>
+	</section>
+<script>
+	function formatBytes(bytes, decimals = 1) {
+		if (bytes === 0) return '0 Bytes';
+
+		const k = 1024;
+		const dm = decimals < 0 ? 0 : decimals;
+		const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+		const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+		return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+	}
+	Chart.defaults.global.legend.display = false;
+	Chart.defaults.global.defaultFontSize = 8;
+	Chart.defaults.global.animation.duration = 1000;
+	Chart.defaults.global.animation.easing = 'easeOutQuart';
+	Chart.defaults.global.elements.line.backgroundColor = 'rgba(0, 172, 215, 0.25)';
+	Chart.defaults.global.elements.line.borderColor = 'rgba(0, 172, 215, 1)';
+	Chart.defaults.global.elements.line.borderWidth = 2;
+
+	const options = {
+		scales: {
+			yAxes: [{ ticks: { beginAtZero: true }}],
+			xAxes: [{
+				type: 'time',
+				time: {
+					unitStepSize: 30,
+					unit: 'second'
+				},
+				gridlines: { display: false }
+			}]
+		},
+		tooltips: {	enabled: false },
+		responsive: true,
+		maintainAspectRatio: false,
+		animation: false
+	};
+	const cpuMetric = document.querySelector('#cpuMetric');
+	const ramMetric = document.querySelector('#ramMetric');
+	const rtimeMetric = document.querySelector('#rtimeMetric');
+	const connsMetric = document.querySelector('#connsMetric');
+
+	const cpuChartCtx = document.querySelector('#cpuChart').getContext('2d');
+	const ramChartCtx = document.querySelector('#ramChart').getContext('2d');
+	const rtimeChartCtx = document.querySelector('#rtimeChart').getContext('2d');
+	const connsChartCtx = document.querySelector('#connsChart').getContext('2d');
+
+	const cpuChart = createChart(cpuChartCtx);
+	const ramChart = createChart(ramChartCtx);
+	const rtimeChart = createChart(rtimeChartCtx);
+	const connsChart = createChart(connsChartCtx);
+
+	const charts = [cpuChart, ramChart, rtimeChart, connsChart];
+
+	function createChart(ctx) {
+		return new Chart(ctx, {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: [{
+					label: '',
+					data: [],
+					lineTension: 0.2,
+					pointRadius: 0,
+				}]
+			},
+			options
+		});
+	}
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(255, 200, 0, .6)',
+		borderColor: 'rgba(255, 150, 0, .8)',
+	})
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(0, 255, 0, .4)',
+		borderColor: 'rgba(0, 200, 0, .8)',
+	})
+	function update(json, rtime) {
+		cpu = json.pid.cpu.toFixed(1);
+		cpuOS = json.os.cpu.toFixed(1);
+
+		cpuMetric.innerHTML = cpu + '% <span>' + cpuOS + '%</span>';
+		ramMetric.innerHTML = formatBytes(json.pid.ram) + '<span> / </span><span class="ram_os">' + formatBytes(json.os.ram) +
+			'<span><span> / </span><span class="ram_total">' + formatBytes(json.os.total_ram) + '</span>';
+		rtimeMetric.innerHTML = rtime + 'ms <span>client</span>';
+		connsMetric.innerHTML = json.pid.conns + ' <span>' + json.os.conns + '</span>';
+
+		cpuChart.data.datasets[0].data.push(cpu);
+		ramChart.data.datasets[2].data.push((json.os.total_ram / 1e6).toFixed(2));
+		ramChart.data.datasets[1].data.push((json.os.ram / 1e6).toFixed(2));
+		ramChart.data.datasets[0].data.push((json.pid.ram / 1e6).toFixed(2));
+		rtimeChart.data.datasets[0].data.push(rtime);
+		connsChart.data.datasets[0].data.push(json.pid.conns);
+
+		const timestamp = new Date().getTime();
+
+		charts.forEach(chart => {
+			if (chart.data.labels.length > 50) {
+				chart.data.datasets.forEach(function (dataset) { dataset.data.shift(); });
+				chart.data.labels.shift();
+			}
+			chart.data.labels.push(timestamp);
+			chart.update();
+		});
+		setTimeout(fetchJSON, 2800)
+	}
+	function fetchJSON() {
+		var t1 = ''
+		var t0 = performance.now()
+		fetch(window.location.href, {
+				headers: { 'Accept': 'application/json' },
+				credentials: 'same-origin'
+			})
+			.then(res => {
+				t1 = performance.now()
+				return res.json()
+			})
+			.then(res => { update(res, Math.round(t1 - t0)) })
+			.catch(console.error);
+	}
+	fetchJSON()
+</script>
+</body>
+</html>
+
+[2022-11-07 19:56:22] 200 -      0s GET /metrics   {"pid":{"cpu":0.03820722829496157,"ram":26955776,"conns":5},"os":{"cpu":1.1749347258485638,"ram":10611277824,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:22] 200 -      0s GET /metrics   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9/dist/Chart.bundle.min.js"></script>
+
+	<title>Tempalte Backend Go - Monitoring Page</title>
+<style>
+	body {
+		margin: 0;
+		font: 16px / 1.6 'Roboto', sans-serif;
+	}
+	.wrapper {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.title {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	.title h1 {
+		font-size: 1.8em;
+		padding: 0;
+		margin: 0;
+	}
+	.row {
+		display: flex;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.row .column:first-child { width: 35%; }
+	.row .column:last-child { width: 65%; }
+	.metric {
+		color: #777;
+		font-weight: 900;
+	}
+	h2 {
+		padding: 0;
+		margin: 0;
+		font-size: 2.2em;
+	}
+	h2 span {
+		font-size: 12px;
+		color: #777;
+	}
+	h2 span.ram_os { color: rgba(255, 150, 0, .8); }
+	h2 span.ram_total { color: rgba(0, 200, 0, .8); }
+	canvas {
+		width: 200px;
+		height: 180px;
+	}
+
+</style>
+</head>
+<body>
+	<section class="wrapper">
+	<div class="title"><h1>Tempalte Backend Go - Monitoring Page</h1></div>
+	<section class="charts">
+		<div class="row">
+			<div class="column">
+				<div class="metric">CPU Usage</div>
+				<h2 id="cpuMetric">0.00%</h2>
+			</div>
+			<div class="column">
+				<canvas id="cpuChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Memory Usage</div>
+				<h2 id="ramMetric" title="PID used / OS used / OS total">0.00 MB</h2>
+			</div>
+			<div class="column">
+				<canvas id="ramChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Response Time</div>
+				<h2 id="rtimeMetric">0ms</h2>
+			</div>
+			<div class="column">
+				<canvas id="rtimeChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Open Connections</div>
+				<h2 id="connsMetric">0</h2>
+			</div>
+			<div class="column">
+				<canvas id="connsChart"></canvas>
+			</div>
+		</div>
+	</section>
+	</section>
+<script>
+	function formatBytes(bytes, decimals = 1) {
+		if (bytes === 0) return '0 Bytes';
+
+		const k = 1024;
+		const dm = decimals < 0 ? 0 : decimals;
+		const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+		const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+		return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+	}
+	Chart.defaults.global.legend.display = false;
+	Chart.defaults.global.defaultFontSize = 8;
+	Chart.defaults.global.animation.duration = 1000;
+	Chart.defaults.global.animation.easing = 'easeOutQuart';
+	Chart.defaults.global.elements.line.backgroundColor = 'rgba(0, 172, 215, 0.25)';
+	Chart.defaults.global.elements.line.borderColor = 'rgba(0, 172, 215, 1)';
+	Chart.defaults.global.elements.line.borderWidth = 2;
+
+	const options = {
+		scales: {
+			yAxes: [{ ticks: { beginAtZero: true }}],
+			xAxes: [{
+				type: 'time',
+				time: {
+					unitStepSize: 30,
+					unit: 'second'
+				},
+				gridlines: { display: false }
+			}]
+		},
+		tooltips: {	enabled: false },
+		responsive: true,
+		maintainAspectRatio: false,
+		animation: false
+	};
+	const cpuMetric = document.querySelector('#cpuMetric');
+	const ramMetric = document.querySelector('#ramMetric');
+	const rtimeMetric = document.querySelector('#rtimeMetric');
+	const connsMetric = document.querySelector('#connsMetric');
+
+	const cpuChartCtx = document.querySelector('#cpuChart').getContext('2d');
+	const ramChartCtx = document.querySelector('#ramChart').getContext('2d');
+	const rtimeChartCtx = document.querySelector('#rtimeChart').getContext('2d');
+	const connsChartCtx = document.querySelector('#connsChart').getContext('2d');
+
+	const cpuChart = createChart(cpuChartCtx);
+	const ramChart = createChart(ramChartCtx);
+	const rtimeChart = createChart(rtimeChartCtx);
+	const connsChart = createChart(connsChartCtx);
+
+	const charts = [cpuChart, ramChart, rtimeChart, connsChart];
+
+	function createChart(ctx) {
+		return new Chart(ctx, {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: [{
+					label: '',
+					data: [],
+					lineTension: 0.2,
+					pointRadius: 0,
+				}]
+			},
+			options
+		});
+	}
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(255, 200, 0, .6)',
+		borderColor: 'rgba(255, 150, 0, .8)',
+	})
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(0, 255, 0, .4)',
+		borderColor: 'rgba(0, 200, 0, .8)',
+	})
+	function update(json, rtime) {
+		cpu = json.pid.cpu.toFixed(1);
+		cpuOS = json.os.cpu.toFixed(1);
+
+		cpuMetric.innerHTML = cpu + '% <span>' + cpuOS + '%</span>';
+		ramMetric.innerHTML = formatBytes(json.pid.ram) + '<span> / </span><span class="ram_os">' + formatBytes(json.os.ram) +
+			'<span><span> / </span><span class="ram_total">' + formatBytes(json.os.total_ram) + '</span>';
+		rtimeMetric.innerHTML = rtime + 'ms <span>client</span>';
+		connsMetric.innerHTML = json.pid.conns + ' <span>' + json.os.conns + '</span>';
+
+		cpuChart.data.datasets[0].data.push(cpu);
+		ramChart.data.datasets[2].data.push((json.os.total_ram / 1e6).toFixed(2));
+		ramChart.data.datasets[1].data.push((json.os.ram / 1e6).toFixed(2));
+		ramChart.data.datasets[0].data.push((json.pid.ram / 1e6).toFixed(2));
+		rtimeChart.data.datasets[0].data.push(rtime);
+		connsChart.data.datasets[0].data.push(json.pid.conns);
+
+		const timestamp = new Date().getTime();
+
+		charts.forEach(chart => {
+			if (chart.data.labels.length > 50) {
+				chart.data.datasets.forEach(function (dataset) { dataset.data.shift(); });
+				chart.data.labels.shift();
+			}
+			chart.data.labels.push(timestamp);
+			chart.update();
+		});
+		setTimeout(fetchJSON, 2800)
+	}
+	function fetchJSON() {
+		var t1 = ''
+		var t0 = performance.now()
+		fetch(window.location.href, {
+				headers: { 'Accept': 'application/json' },
+				credentials: 'same-origin'
+			})
+			.then(res => {
+				t1 = performance.now()
+				return res.json()
+			})
+			.then(res => { update(res, Math.round(t1 - t0)) })
+			.catch(console.error);
+	}
+	fetchJSON()
+</script>
+</body>
+</html>
+
+[2022-11-07 19:56:22] 200 -      0s GET /metrics   {"pid":{"cpu":0.03820722829496157,"ram":26955776,"conns":5},"os":{"cpu":1.1749347258485638,"ram":10611277824,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:22] 200 -      0s GET /metrics   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9/dist/Chart.bundle.min.js"></script>
+
+	<title>Tempalte Backend Go - Monitoring Page</title>
+<style>
+	body {
+		margin: 0;
+		font: 16px / 1.6 'Roboto', sans-serif;
+	}
+	.wrapper {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.title {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	.title h1 {
+		font-size: 1.8em;
+		padding: 0;
+		margin: 0;
+	}
+	.row {
+		display: flex;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.row .column:first-child { width: 35%; }
+	.row .column:last-child { width: 65%; }
+	.metric {
+		color: #777;
+		font-weight: 900;
+	}
+	h2 {
+		padding: 0;
+		margin: 0;
+		font-size: 2.2em;
+	}
+	h2 span {
+		font-size: 12px;
+		color: #777;
+	}
+	h2 span.ram_os { color: rgba(255, 150, 0, .8); }
+	h2 span.ram_total { color: rgba(0, 200, 0, .8); }
+	canvas {
+		width: 200px;
+		height: 180px;
+	}
+
+</style>
+</head>
+<body>
+	<section class="wrapper">
+	<div class="title"><h1>Tempalte Backend Go - Monitoring Page</h1></div>
+	<section class="charts">
+		<div class="row">
+			<div class="column">
+				<div class="metric">CPU Usage</div>
+				<h2 id="cpuMetric">0.00%</h2>
+			</div>
+			<div class="column">
+				<canvas id="cpuChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Memory Usage</div>
+				<h2 id="ramMetric" title="PID used / OS used / OS total">0.00 MB</h2>
+			</div>
+			<div class="column">
+				<canvas id="ramChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Response Time</div>
+				<h2 id="rtimeMetric">0ms</h2>
+			</div>
+			<div class="column">
+				<canvas id="rtimeChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Open Connections</div>
+				<h2 id="connsMetric">0</h2>
+			</div>
+			<div class="column">
+				<canvas id="connsChart"></canvas>
+			</div>
+		</div>
+	</section>
+	</section>
+<script>
+	function formatBytes(bytes, decimals = 1) {
+		if (bytes === 0) return '0 Bytes';
+
+		const k = 1024;
+		const dm = decimals < 0 ? 0 : decimals;
+		const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+		const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+		return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+	}
+	Chart.defaults.global.legend.display = false;
+	Chart.defaults.global.defaultFontSize = 8;
+	Chart.defaults.global.animation.duration = 1000;
+	Chart.defaults.global.animation.easing = 'easeOutQuart';
+	Chart.defaults.global.elements.line.backgroundColor = 'rgba(0, 172, 215, 0.25)';
+	Chart.defaults.global.elements.line.borderColor = 'rgba(0, 172, 215, 1)';
+	Chart.defaults.global.elements.line.borderWidth = 2;
+
+	const options = {
+		scales: {
+			yAxes: [{ ticks: { beginAtZero: true }}],
+			xAxes: [{
+				type: 'time',
+				time: {
+					unitStepSize: 30,
+					unit: 'second'
+				},
+				gridlines: { display: false }
+			}]
+		},
+		tooltips: {	enabled: false },
+		responsive: true,
+		maintainAspectRatio: false,
+		animation: false
+	};
+	const cpuMetric = document.querySelector('#cpuMetric');
+	const ramMetric = document.querySelector('#ramMetric');
+	const rtimeMetric = document.querySelector('#rtimeMetric');
+	const connsMetric = document.querySelector('#connsMetric');
+
+	const cpuChartCtx = document.querySelector('#cpuChart').getContext('2d');
+	const ramChartCtx = document.querySelector('#ramChart').getContext('2d');
+	const rtimeChartCtx = document.querySelector('#rtimeChart').getContext('2d');
+	const connsChartCtx = document.querySelector('#connsChart').getContext('2d');
+
+	const cpuChart = createChart(cpuChartCtx);
+	const ramChart = createChart(ramChartCtx);
+	const rtimeChart = createChart(rtimeChartCtx);
+	const connsChart = createChart(connsChartCtx);
+
+	const charts = [cpuChart, ramChart, rtimeChart, connsChart];
+
+	function createChart(ctx) {
+		return new Chart(ctx, {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: [{
+					label: '',
+					data: [],
+					lineTension: 0.2,
+					pointRadius: 0,
+				}]
+			},
+			options
+		});
+	}
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(255, 200, 0, .6)',
+		borderColor: 'rgba(255, 150, 0, .8)',
+	})
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(0, 255, 0, .4)',
+		borderColor: 'rgba(0, 200, 0, .8)',
+	})
+	function update(json, rtime) {
+		cpu = json.pid.cpu.toFixed(1);
+		cpuOS = json.os.cpu.toFixed(1);
+
+		cpuMetric.innerHTML = cpu + '% <span>' + cpuOS + '%</span>';
+		ramMetric.innerHTML = formatBytes(json.pid.ram) + '<span> / </span><span class="ram_os">' + formatBytes(json.os.ram) +
+			'<span><span> / </span><span class="ram_total">' + formatBytes(json.os.total_ram) + '</span>';
+		rtimeMetric.innerHTML = rtime + 'ms <span>client</span>';
+		connsMetric.innerHTML = json.pid.conns + ' <span>' + json.os.conns + '</span>';
+
+		cpuChart.data.datasets[0].data.push(cpu);
+		ramChart.data.datasets[2].data.push((json.os.total_ram / 1e6).toFixed(2));
+		ramChart.data.datasets[1].data.push((json.os.ram / 1e6).toFixed(2));
+		ramChart.data.datasets[0].data.push((json.pid.ram / 1e6).toFixed(2));
+		rtimeChart.data.datasets[0].data.push(rtime);
+		connsChart.data.datasets[0].data.push(json.pid.conns);
+
+		const timestamp = new Date().getTime();
+
+		charts.forEach(chart => {
+			if (chart.data.labels.length > 50) {
+				chart.data.datasets.forEach(function (dataset) { dataset.data.shift(); });
+				chart.data.labels.shift();
+			}
+			chart.data.labels.push(timestamp);
+			chart.update();
+		});
+		setTimeout(fetchJSON, 2800)
+	}
+	function fetchJSON() {
+		var t1 = ''
+		var t0 = performance.now()
+		fetch(window.location.href, {
+				headers: { 'Accept': 'application/json' },
+				credentials: 'same-origin'
+			})
+			.then(res => {
+				t1 = performance.now()
+				return res.json()
+			})
+			.then(res => { update(res, Math.round(t1 - t0)) })
+			.catch(console.error);
+	}
+	fetchJSON()
+</script>
+</body>
+</html>
+
+[2022-11-07 19:56:22] 200 -      0s GET /metrics   {"pid":{"cpu":0.03820722829496157,"ram":26955776,"conns":5},"os":{"cpu":1.1749347258485638,"ram":10611277824,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:22] 200 -      0s GET /metrics   <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9/dist/Chart.bundle.min.js"></script>
+
+	<title>Tempalte Backend Go - Monitoring Page</title>
+<style>
+	body {
+		margin: 0;
+		font: 16px / 1.6 'Roboto', sans-serif;
+	}
+	.wrapper {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.title {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	.title h1 {
+		font-size: 1.8em;
+		padding: 0;
+		margin: 0;
+	}
+	.row {
+		display: flex;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.row .column:first-child { width: 35%; }
+	.row .column:last-child { width: 65%; }
+	.metric {
+		color: #777;
+		font-weight: 900;
+	}
+	h2 {
+		padding: 0;
+		margin: 0;
+		font-size: 2.2em;
+	}
+	h2 span {
+		font-size: 12px;
+		color: #777;
+	}
+	h2 span.ram_os { color: rgba(255, 150, 0, .8); }
+	h2 span.ram_total { color: rgba(0, 200, 0, .8); }
+	canvas {
+		width: 200px;
+		height: 180px;
+	}
+
+</style>
+</head>
+<body>
+	<section class="wrapper">
+	<div class="title"><h1>Tempalte Backend Go - Monitoring Page</h1></div>
+	<section class="charts">
+		<div class="row">
+			<div class="column">
+				<div class="metric">CPU Usage</div>
+				<h2 id="cpuMetric">0.00%</h2>
+			</div>
+			<div class="column">
+				<canvas id="cpuChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Memory Usage</div>
+				<h2 id="ramMetric" title="PID used / OS used / OS total">0.00 MB</h2>
+			</div>
+			<div class="column">
+				<canvas id="ramChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Response Time</div>
+				<h2 id="rtimeMetric">0ms</h2>
+			</div>
+			<div class="column">
+				<canvas id="rtimeChart"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column">
+				<div class="metric">Open Connections</div>
+				<h2 id="connsMetric">0</h2>
+			</div>
+			<div class="column">
+				<canvas id="connsChart"></canvas>
+			</div>
+		</div>
+	</section>
+	</section>
+<script>
+	function formatBytes(bytes, decimals = 1) {
+		if (bytes === 0) return '0 Bytes';
+
+		const k = 1024;
+		const dm = decimals < 0 ? 0 : decimals;
+		const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+		const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+		return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+	}
+	Chart.defaults.global.legend.display = false;
+	Chart.defaults.global.defaultFontSize = 8;
+	Chart.defaults.global.animation.duration = 1000;
+	Chart.defaults.global.animation.easing = 'easeOutQuart';
+	Chart.defaults.global.elements.line.backgroundColor = 'rgba(0, 172, 215, 0.25)';
+	Chart.defaults.global.elements.line.borderColor = 'rgba(0, 172, 215, 1)';
+	Chart.defaults.global.elements.line.borderWidth = 2;
+
+	const options = {
+		scales: {
+			yAxes: [{ ticks: { beginAtZero: true }}],
+			xAxes: [{
+				type: 'time',
+				time: {
+					unitStepSize: 30,
+					unit: 'second'
+				},
+				gridlines: { display: false }
+			}]
+		},
+		tooltips: {	enabled: false },
+		responsive: true,
+		maintainAspectRatio: false,
+		animation: false
+	};
+	const cpuMetric = document.querySelector('#cpuMetric');
+	const ramMetric = document.querySelector('#ramMetric');
+	const rtimeMetric = document.querySelector('#rtimeMetric');
+	const connsMetric = document.querySelector('#connsMetric');
+
+	const cpuChartCtx = document.querySelector('#cpuChart').getContext('2d');
+	const ramChartCtx = document.querySelector('#ramChart').getContext('2d');
+	const rtimeChartCtx = document.querySelector('#rtimeChart').getContext('2d');
+	const connsChartCtx = document.querySelector('#connsChart').getContext('2d');
+
+	const cpuChart = createChart(cpuChartCtx);
+	const ramChart = createChart(ramChartCtx);
+	const rtimeChart = createChart(rtimeChartCtx);
+	const connsChart = createChart(connsChartCtx);
+
+	const charts = [cpuChart, ramChart, rtimeChart, connsChart];
+
+	function createChart(ctx) {
+		return new Chart(ctx, {
+			type: 'line',
+			data: {
+				labels: [],
+				datasets: [{
+					label: '',
+					data: [],
+					lineTension: 0.2,
+					pointRadius: 0,
+				}]
+			},
+			options
+		});
+	}
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(255, 200, 0, .6)',
+		borderColor: 'rgba(255, 150, 0, .8)',
+	})
+	ramChart.data.datasets.push({
+		data: [],
+		lineTension: 0.2,
+		pointRadius: 0,
+		backgroundColor: 'rgba(0, 255, 0, .4)',
+		borderColor: 'rgba(0, 200, 0, .8)',
+	})
+	function update(json, rtime) {
+		cpu = json.pid.cpu.toFixed(1);
+		cpuOS = json.os.cpu.toFixed(1);
+
+		cpuMetric.innerHTML = cpu + '% <span>' + cpuOS + '%</span>';
+		ramMetric.innerHTML = formatBytes(json.pid.ram) + '<span> / </span><span class="ram_os">' + formatBytes(json.os.ram) +
+			'<span><span> / </span><span class="ram_total">' + formatBytes(json.os.total_ram) + '</span>';
+		rtimeMetric.innerHTML = rtime + 'ms <span>client</span>';
+		connsMetric.innerHTML = json.pid.conns + ' <span>' + json.os.conns + '</span>';
+
+		cpuChart.data.datasets[0].data.push(cpu);
+		ramChart.data.datasets[2].data.push((json.os.total_ram / 1e6).toFixed(2));
+		ramChart.data.datasets[1].data.push((json.os.ram / 1e6).toFixed(2));
+		ramChart.data.datasets[0].data.push((json.pid.ram / 1e6).toFixed(2));
+		rtimeChart.data.datasets[0].data.push(rtime);
+		connsChart.data.datasets[0].data.push(json.pid.conns);
+
+		const timestamp = new Date().getTime();
+
+		charts.forEach(chart => {
+			if (chart.data.labels.length > 50) {
+				chart.data.datasets.forEach(function (dataset) { dataset.data.shift(); });
+				chart.data.labels.shift();
+			}
+			chart.data.labels.push(timestamp);
+			chart.update();
+		});
+		setTimeout(fetchJSON, 2800)
+	}
+	function fetchJSON() {
+		var t1 = ''
+		var t0 = performance.now()
+		fetch(window.location.href, {
+				headers: { 'Accept': 'application/json' },
+				credentials: 'same-origin'
+			})
+			.then(res => {
+				t1 = performance.now()
+				return res.json()
+			})
+			.then(res => { update(res, Math.round(t1 - t0)) })
+			.catch(console.error);
+	}
+	fetchJSON()
+</script>
+</body>
+</html>
+
+[2022-11-07 19:56:22] 200 -      0s GET /metrics   {"pid":{"cpu":0.03820722829496157,"ram":26955776,"conns":5},"os":{"cpu":1.1749347258485638,"ram":10611277824,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:25] 200 -      0s GET /metrics   {"pid":{"cpu":0.03722779940370664,"ram":26984448,"conns":5},"os":{"cpu":5.17631834357813,"ram":10613006336,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:28] 400 -     3ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:56:28] 400 -     4ms PUT /auth/org org_id= ada {"message":"org_id is required "}
+[2022-11-07 19:56:29] 200 -      0s GET /metrics   {"pid":{"cpu":0.03759264860174051,"ram":26984448,"conns":5},"os":{"cpu":1.7481385561670444,"ram":10613026816,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:31] 400 -     3ms PUT /auth/org org_id=  {"message":"org_id is required "}
+[2022-11-07 19:56:32] 200 -      0s GET /metrics   {"pid":{"cpu":0.03667603403400626,"ram":27226112,"conns":5},"os":{"cpu":5.557350565428109,"ram":10624929792,"total_ram":16891580416,"load_avg":0,"conns":132}}
+[2022-11-07 19:56:32] 400 -     8ms PUT /auth/org org_id=  {"message":"org_id is required "}
+[2022-11-07 19:56:34] 200 -    99ms PUT /auth/org org_id=20000002  {"message":"success","result":{"id":"27","name":"Админ","modules":[{"code":"Main system","description":"Үндсэн систем","icon":"HomeIcon","id":"3","name":"Үндсэн систем","pages":[{"id":"10","code":"User","name":"Хэрэглэгч","path":"/organization/user","icon":"UserIcon","sequence":101,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"11","code":"User role","name":"Хэрэглэгчийн эрх","path":"/organization/role","icon":"ShieldCheckIcon","sequence":102,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"20","code":"Vehicle","name":"Тээврийн хэрэгсэл","path":"/organization/vehicle","icon":"TruckIcon","sequence":103,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"21","code":"Terminal","name":"Төхөөрөмж","path":"/organization/terminal","icon":"DeviceTabletIcon","sequence":104,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"8","code":"Translation","name":"Орчуулга","path":"/translation","icon":"LanguageIcon","sequence":111,"group_code":"Setting","group_name":"Тохиргоо"},{"id":"7","code":"Menu","name":"Хуудас","path":"/menu","icon":"Bars4Icon","sequence":112,"group_code":"Setting","group_name":"Тохиргоо"}],"sequence":1},{"code":"Observe system","description":"Хянах систем","icon":"ComputerDesktopIcon","id":"5","name":"Хянах систем","pages":[{"id":"9","code":"User","name":"Хэрэглэгч","path":"/user","icon":"UserIcon","sequence":1,"group_code":"System registration","group_name":"Системийн бүртгэл"},{"id":"6","code":"Organization","name":"Байгууллага","path":"/organization","icon":"BuildingOfficeIcon","sequence":2,"group_code":"System registration","group_name":"Системийн бүртгэл"},{"id":"16","code":"Dashboard","name":"Хянах самбар","path":"/dashboard","icon":"ComputerDesktopIcon","sequence":11,"group_code":"Observe","group_name":"Хянах"}],"sequence":11}],"actions":[{"id":"34","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл харах","description":""},{"id":"35","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж харах","description":""},{"id":"36","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч бүртгэх","description":""},{"id":"37","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч засах","description":""},{"id":"38","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч устгах","description":""},{"id":"39","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага бүртгэх","description":""},{"id":"40","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага засах","description":""},{"id":"41","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага устгах","description":""},{"id":"42","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч бүртгэх","description":""},{"id":"43","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч засах","description":""},{"id":"44","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч устгах","description":""},{"id":"45","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх бүртгэх","description":""},{"id":"46","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх засах","description":""},{"id":"47","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх устгах","description":""},{"id":"48","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл бүртгэх","description":""},{"id":"49","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл устгах","description":""},{"id":"50","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж бүртгэх","description":""},{"id":"51","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж засах","description":""},{"id":"52","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж устгах","description":""},{"id":"53","module_id":"3","module_name":"Үндсэн систем","page_id":"8","page_name":"Орчуулга","name":"Орчуулах","description":""},{"id":"54","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгчийн эрх өөрчлөх","description":""},{"id":"55","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Нууц үг өөрчлөх","description":""},{"id":"56","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгчийн эрх өөрчлөх","description":""},{"id":"57","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"\t Нууц үг өөрчлөх","description":""},{"id":"58","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын ажилтан","description":""},{"id":"59","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын хэрэглэгчийн эрх","description":""},{"id":"60","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын тээврийн хэрэгсэл","description":""},{"id":"61","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын төхөөрөмж","description":""},{"id":"28","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч харах","description":""},{"id":"32","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх харах","description":""},{"id":"30","module_id":"3","module_name":"Үндсэн систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч харах","description":""},{"id":"31","module_id":"3","module_name":"Үндсэн систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага харах","description":""},{"id":"19","module_id":"3","module_name":"Үндсэн систем","page_id":"8","page_name":"Орчуулга","name":"Орчуулга харах","description":""},{"id":"29","module_id":"3","module_name":"Үндсэн систем","page_id":"7","page_name":"Хуудас","name":"Хуудас харах","description":""},{"id":"16","module_id":"5","module_name":"Хянах систем","page_id":"16","page_name":"Хянах самбар","name":"Хянах самбар харах","description":""}]}}
+[2022-11-07 19:56:35] 200 -    44ms PUT /auth/org org_id=20000002  {"message":"success","result":{"id":"27","name":"Админ","modules":[{"code":"Main system","description":"Үндсэн систем","icon":"HomeIcon","id":"3","name":"Үндсэн систем","pages":[{"id":"10","code":"User","name":"Хэрэглэгч","path":"/organization/user","icon":"UserIcon","sequence":101,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"11","code":"User role","name":"Хэрэглэгчийн эрх","path":"/organization/role","icon":"ShieldCheckIcon","sequence":102,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"20","code":"Vehicle","name":"Тээврийн хэрэгсэл","path":"/organization/vehicle","icon":"TruckIcon","sequence":103,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"21","code":"Terminal","name":"Төхөөрөмж","path":"/organization/terminal","icon":"DeviceTabletIcon","sequence":104,"group_code":"Main registration","group_name":"Үндсэн Бүртгэл"},{"id":"8","code":"Translation","name":"Орчуулга","path":"/translation","icon":"LanguageIcon","sequence":111,"group_code":"Setting","group_name":"Тохиргоо"},{"id":"7","code":"Menu","name":"Хуудас","path":"/menu","icon":"Bars4Icon","sequence":112,"group_code":"Setting","group_name":"Тохиргоо"}],"sequence":1},{"code":"Observe system","description":"Хянах систем","icon":"ComputerDesktopIcon","id":"5","name":"Хянах систем","pages":[{"id":"9","code":"User","name":"Хэрэглэгч","path":"/user","icon":"UserIcon","sequence":1,"group_code":"System registration","group_name":"Системийн бүртгэл"},{"id":"6","code":"Organization","name":"Байгууллага","path":"/organization","icon":"BuildingOfficeIcon","sequence":2,"group_code":"System registration","group_name":"Системийн бүртгэл"},{"id":"16","code":"Dashboard","name":"Хянах самбар","path":"/dashboard","icon":"ComputerDesktopIcon","sequence":11,"group_code":"Observe","group_name":"Хянах"}],"sequence":11}],"actions":[{"id":"34","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл харах","description":""},{"id":"35","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж харах","description":""},{"id":"36","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч бүртгэх","description":""},{"id":"37","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч засах","description":""},{"id":"38","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч устгах","description":""},{"id":"39","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага бүртгэх","description":""},{"id":"40","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага засах","description":""},{"id":"41","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага устгах","description":""},{"id":"42","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч бүртгэх","description":""},{"id":"43","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч засах","description":""},{"id":"44","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч устгах","description":""},{"id":"45","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх бүртгэх","description":""},{"id":"46","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх засах","description":""},{"id":"47","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх устгах","description":""},{"id":"48","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл бүртгэх","description":""},{"id":"49","module_id":"3","module_name":"Үндсэн систем","page_id":"20","page_name":"Тээврийн хэрэгсэл","name":"Тээврийн хэрэгсэл устгах","description":""},{"id":"50","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж бүртгэх","description":""},{"id":"51","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж засах","description":""},{"id":"52","module_id":"3","module_name":"Үндсэн систем","page_id":"21","page_name":"Төхөөрөмж","name":"Төхөөрөмж устгах","description":""},{"id":"53","module_id":"3","module_name":"Үндсэн систем","page_id":"8","page_name":"Орчуулга","name":"Орчуулах","description":""},{"id":"54","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгчийн эрх өөрчлөх","description":""},{"id":"55","module_id":"5","module_name":"Хянах систем","page_id":"9","page_name":"Хэрэглэгч","name":"Нууц үг өөрчлөх","description":""},{"id":"56","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгчийн эрх өөрчлөх","description":""},{"id":"57","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"\t Нууц үг өөрчлөх","description":""},{"id":"58","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын ажилтан","description":""},{"id":"59","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын хэрэглэгчийн эрх","description":""},{"id":"60","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын тээврийн хэрэгсэл","description":""},{"id":"61","module_id":"5","module_name":"Хянах систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллагын төхөөрөмж","description":""},{"id":"28","module_id":"3","module_name":"Үндсэн систем","page_id":"10","page_name":"Хэрэглэгч","name":"Хэрэглэгч харах","description":""},{"id":"32","module_id":"3","module_name":"Үндсэн систем","page_id":"11","page_name":"Хэрэглэгчийн эрх","name":"Хэрэглэгчийн эрх харах","description":""},{"id":"30","module_id":"3","module_name":"Үндсэн систем","page_id":"9","page_name":"Хэрэглэгч","name":"Хэрэглэгч харах","description":""},{"id":"31","module_id":"3","module_name":"Үндсэн систем","page_id":"6","page_name":"Байгууллага","name":"Байгууллага харах","description":""},{"id":"19","module_id":"3","module_name":"Үндсэн систем","page_id":"8","page_name":"Орчуулга","name":"Орчуулга харах","description":""},{"id":"29","module_id":"3","module_name":"Үндсэн систем","page_id":"7","page_name":"Хуудас","name":"Хуудас харах","description":""},{"id":"16","module_id":"5","module_name":"Хянах систем","page_id":"16","page_name":"Хянах самбар","name":"Хянах самбар харах","description":""}]}}
+[2022-11-07 19:56:35] 200 -      0s GET /metrics   {"pid":{"cpu":0.037040111106520814,"ram":27230208,"conns":5},"os":{"cpu":10.951760104302476,"ram":10581430272,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:38] 200 -      0s GET /metrics   {"pid":{"cpu":0.03738368196150492,"ram":27570176,"conns":5},"os":{"cpu":7.3021001615508885,"ram":10624397312,"total_ram":16891580416,"load_avg":0,"conns":133}}
+[2022-11-07 19:56:40] 200 -      0s GET /metrics   {"pid":{"cpu":0.036533775099653845,"ram":27574272,"conns":5},"os":{"cpu":2.2705157314304247,"ram":10574192640,"total_ram":16891580416,"load_avg":0,"conns":132}}
+[2022-11-07 19:56:43] 200 -      0s GET /metrics   {"pid":{"cpu":0.03572116095461169,"ram":27541504,"conns":4},"os":{"cpu":2.7219701879455602,"ram":10587107328,"total_ram":16891580416,"load_avg":0,"conns":131}}
+[2022-11-07 19:56:47] 200 -      0s GET /metrics   {"pid":{"cpu":0.03494336454861452,"ram":27545600,"conns":4},"os":{"cpu":6.2055591467356175,"ram":10630631424,"total_ram":16891580416,"load_avg":0,"conns":132}}
+[2022-11-07 19:56:50] 200 -      0s GET /metrics   {"pid":{"cpu":0.03420043189608104,"ram":27553792,"conns":4},"os":{"cpu":13.0674448767834,"ram":10592399360,"total_ram":16891580416,"load_avg":0,"conns":132}}
+[2022-11-07 19:56:53] 200 -      0s GET /metrics   {"pid":{"cpu":0.03348943951153095,"ram":27553792,"conns":4},"os":{"cpu":8.224967490004857,"ram":10611806208,"total_ram":16891580416,"load_avg":0,"conns":131}}
+[2022-11-07 19:56:56] 200 -      0s GET /metrics   {"pid":{"cpu":0.03280780409306053,"ram":27557888,"conns":4},"os":{"cpu":7.140538786108406,"ram":10580766720,"total_ram":16891580416,"load_avg":0,"conns":132}}
+[2022-11-07 19:56:59] 200 -      0s GET /metrics   {"pid":{"cpu":0.0331894637124117,"ram":27566080,"conns":4},"os":{"cpu":35.324675324675326,"ram":10586931200,"total_ram":16891580416,"load_avg":0,"conns":131}}
+[2022-11-07 19:57:02] 200 -     1ms GET /metrics   {"pid":{"cpu":0.032537548899209914,"ram":27574272,"conns":4},"os":{"cpu":18.65284974093264,"ram":10569056256,"total_ram":16891580416,"load_avg":0,"conns":131}}
+[2022-11-07 19:57:04] 200 -      0s GET /metrics   {"pid":{"cpu":0.03191196231995815,"ram":27602944,"conns":4},"os":{"cpu":37.69430051813472,"ram":10629844992,"total_ram":16891580416,"load_avg":0,"conns":131}}
